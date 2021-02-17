@@ -9,7 +9,7 @@ public class RunSearch {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "/opt/WebDriver/bin/chromedriver");
-		System.setProperty("webdriver.gecko.driver", "/opt/WebDriver/bin/geckodriver");
+		//System.setProperty("webdriver.gecko.driver", "/opt/WebDriver/bin/geckodriver");
 		String inputPath = "artist_input.txt";
 		String outputPath;
 		

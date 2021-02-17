@@ -31,8 +31,8 @@ public class MbSearch {
 			wait.until(ExpectedConditions.elementToBeClickable(By.className("list-item")));
 			List <WebElement> selectors = driver.findElements(By.className("list-item"));
 			WebElement selector = driver.findElement(By.xpath("//td[contains(text(), '7-Day Song Analysis')]"));
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selector);
-			Thread.sleep(500);
+			//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selector);
+			//Thread.sleep(500);
 			selector.click();
 			/*for (WebElement selector : selectors) {
 				if (selector.getText().contains("7-Day Song Analysis")) {
@@ -48,16 +48,15 @@ public class MbSearch {
 			//Thread.sleep(2000);
 			//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class = 'ui-button ui-widget btn-action']")));
 			driver.findElement(By.xpath("//span[@class='mb-pin']")).click();
-			List <WebElement> buttons = driver.findElements(By.xpath("//div[@class='mb-txt-selection mb-input-selector']"));
-			//ui-button ui-widget btn-action
-			Thread.sleep(2000);
+			List <WebElement> buttons = driver.findElements(By.xpath("//div[@class='mb-txt-selection mb-input-selector']")); 
+			//Thread.sleep(2000);
 			//wait.until(ExpectedConditions.visibilityOf(button));
-			//while (driver.findElements((By.xpath("//input[@class = 'mb-form-control']"))).size() > 0) {
-		    for (WebElement button : buttons) {
+			while (driver.findElements((By.xpath("//input[@class = 'mb-form-control']"))).size() == 0) {
+				for (WebElement button : buttons) {
 					button.click();
-			}
+				}
 
-			//}
+			}
 			
 			//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@class = 'mb-form-control']")));
 			driver.findElement(By.xpath("//input[@class='mb-form-control']")).sendKeys("Arlo Parks");
@@ -87,9 +86,13 @@ public class MbSearch {
 			WebElement navBar= driver.findElement(By.id("mb-tab-nav"));
 			List<WebElement> tabs = navBar.findElements(By.xpath("./child::*"));
 			for(int i = 0;  i<tabs.size(); i++) {
+				
+				List<WebElement> nextTab =  tabs.get(i+1).findElements(By.xpath("./child::*"));
+				
+				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class = 'status-box-text']")));
 				WebElement statusBox= driver.findElement(By.xpath("//div[@class='status-box-text']"));
 					if(statusBox.getText().equalsIgnoreCase("No records found")) {
-						tabs.get(i+1).click();
+						nextTab.get(0).click();
 				}
 			}
 		}
@@ -132,12 +135,12 @@ public class MbSearch {
 			List <WebElement> buttons = driver.findElements(By.xpath("//div[@class='mb-txt-selection mb-input-selector']"));
 			//app-btn-run-report
 			//wait.until(ExpectedConditions.visibilityOf(button));
-			//while (driver.findElements((By.xpath("//input[@class = 'mb-form-control']"))).size() > 0) {
+			while (driver.findElements((By.xpath("//input[@class = 'mb-form-control']"))).size() < 1) {
 				for (WebElement button : buttons) {
 					button.click();
 				}
 
-			//}
+			}
 			
 			//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@class = 'mb-form-control']")));
 			driver.findElement(By.xpath("//input[@class='mb-form-control']")).sendKeys("Arlo Parks");

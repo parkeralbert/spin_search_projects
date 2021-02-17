@@ -143,7 +143,6 @@ public class StSearch extends SpinSearch{
 				for (WebElement td : tableData) {
 					List<WebElement> eachCell = td.findElements(By.xpath("./child::*"));
 					ArrayList<String> spinData = new ArrayList<>();
-					System.out.println("Spin for " + currentArtist + ": "+ td.getText());
 					
 					for (WebElement cell : eachCell) {
 						spinData.add(cell.getText());
@@ -160,6 +159,8 @@ public class StSearch extends SpinSearch{
 		if(spinData != null) {
 			String stationName = null;
 			String song = null;
+			String artist = null;
+			String album = null;
 			SimpleDateFormat formatter = new SimpleDateFormat("M/d/yy, h:mm a");
 			Date spinDate = null;
 			String date = "";
@@ -171,18 +172,43 @@ public class StSearch extends SpinSearch{
 					for (int i = 0; i< spin.size(); i++) {
 						if (i==0) {
 							spinDate = formatter.parse(spin.get(i).replaceAll("\\*", ""));
-							SimpleDateFormat dateToString = new SimpleDateFormat("yyyy-MM-dd");
+							SimpleDateFormat dateToString = new SimpleDateFormat("yyyy-MM-dd|h:mm a");
 							date = dateToString.format(spinDate);
 						}
 						if (i==1) {
 							stationName = spin.get(i);
 						}
 						if (i==2) {
-							song = spin.get(i);
+							if (spin.get(i).equals("")){
+								song = "n/a";
+							}
+							else {
+								song = spin.get(i);
+							}
+						}
+						if (i==3) {
+							if (spin.get(i).equals("")){
+								artist = "n/a";
+							}
+							else {
+								artist = spin.get(i);
+							}
+						}
+						if (i==4) {
+							if (spin.get(i).equals("")){
+								album = "n/a";
+							}
+							else {
+								album = spin.get(i);
+							}
 						}
 					}
 					
-					spins.add(currentArtist + "|" + stationName + "|" + song + "|" + date);
+					if (artist.equalsIgnoreCase(currentArtist)) {
+						spins.add(stationName + "|" + artist + "|" + album + "|" + song + "|" + date);
+						System.out.println("Spin for " + currentArtist + ": "+ spin);
+					}
+
 				}
 			}
 				spinsToPrint.put(currentArtist, spins);
