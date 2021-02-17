@@ -9,6 +9,7 @@ public class RunSearch {
 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "/opt/WebDriver/bin/chromedriver");
+		System.setProperty("webdriver.gecko.driver", "/opt/WebDriver/bin/geckodriver");
 		String inputPath = "artist_input.txt";
 		String outputPath;
 		
@@ -39,6 +40,7 @@ public class RunSearch {
 			
 			if (args.length == 1 && args[0].equalsIgnoreCase("mediabase")){
 				WebDriver driver = mb.login("https://www2.mediabase.com");
+				//mb.testButton("https://www2.mediabase.com");
 			}
 			
 			if (args.length == 1 &&  args[0].equalsIgnoreCase("all")){
