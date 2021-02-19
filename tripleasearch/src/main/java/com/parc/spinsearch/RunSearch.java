@@ -39,7 +39,8 @@ public class RunSearch {
 			}
 			
 			if (args.length == 1 && args[0].equalsIgnoreCase("mediabase")){
-				WebDriver driver = mb.login("https://www2.mediabase.com");
+				outputPath = "mediabase_spin_data.txt";
+				mb.spinSearch("https://www2.mediabase.com/mbapp/Account/Login?ReturnUrl=%2Fmbapp%2F", artistInfo, outputPath, inputPath, false);
 				//mb.testButton("https://www2.mediabase.com");
 			}
 			

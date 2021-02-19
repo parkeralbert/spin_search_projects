@@ -198,7 +198,6 @@ public class JbeSearch extends SpinSearch{
 				}
 			}
 	    	driver.navigate().back();
-	    	driver.navigate().back();
 	    	return allAddData;
 	}
 	
