@@ -16,6 +16,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SmSearch extends SpinSearch{
+	
+	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+		
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+			artistInfo.add(line.trim());
+		}
+		
+	}
+	
 	public Map<String, ArrayList <String>> getSpins(String url, ArrayList <String> artistInfo, String outputPath, String inputPath) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
 		

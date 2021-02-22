@@ -17,7 +17,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MbSearch {
-
+	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+			artistInfo.add(line.trim());
+		}
+	}
+	
 	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
 		WebDriver driver = login(url);
 		
@@ -70,6 +75,8 @@ public class MbSearch {
 	public ArrayList <String[]> getSpinData(String currentArtist, WebDriver driver){
 		ArrayList <String[]> allSpinData = new ArrayList<>();
 		try {
+		driver.get("https://www2.mediabase.com/mbapp/SongAnalysisReport/Index");
+		Thread.sleep(2000);
 		WebElement selection = driver.findElement(By.xpath("//div[@class='mb-txt-selection mb-input-selector']")); 
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selection);
 		//Thread.sleep(2000);
@@ -105,35 +112,31 @@ public class MbSearch {
 			executor.executeScript("arguments[0].click();", button);
 			Thread.sleep(1000);
 		}
-
-		//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@class = 'mb-form-control']")));
+		WebDriverWait wait = new WebDriverWait(driver, 1000);
+		Thread.sleep(1000);
+		List <WebElement> checkBoxes= driver.findElements(By.xpath("//input[@class='all-row-selector']"));
+		try {
+			checkBoxes.get(1).click();
+		}
+		catch(Exception r){
+			Thread.sleep(1000);
+			checkBoxes= driver.findElements(By.xpath("//input[@class='all-row-selector']"));
+			checkBoxes.get(1).click();
+		}
+		driver.findElement(By.xpath("//button[@class='mb-btn-remove']")).click();
 		driver.findElement(By.xpath("//input[@class='mb-form-control']")).sendKeys(currentArtist);
 
 		driver.findElement(By.xpath("//div[@class='mb-rbtn-type mb-radio-button-picker']")).click();
 		driver.findElement(By.xpath("//button[@class='btn btn-default']")).click();
-		WebDriverWait wait = new WebDriverWait(driver, 1000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//tr[@class = 'list-item selectable']")));
 
-		List <WebElement> selectables= driver.findElements(By.xpath("//tr[@class='list-item selectable']"));
-		int numChecked = 0;
-		int numSelected = 0;
-		for (WebElement selectable : selectables) {
-			List<WebElement> tableData = selectable.findElements(By.xpath("./child::*"));
-			for (WebElement data : tableData) {
-				if(data.getText().equalsIgnoreCase(currentArtist)) {
-					selectable.click();
-					numSelected++;
-				}
-			}
-			numChecked++;
-			if (numChecked >10) {
-				break;
-			}
-		}
+		int numSelected = selectSongs(currentArtist, driver);
+		
 		if (numSelected == 0) {
 			driver.findElement(By.xpath("//button[@class='ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close']")).click();
 			return null;		
 		}
+		
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@class='mb-btn-add']")).click();
 		driver.findElement(By.xpath("//button[@class='dlg-btn-ok ui-button ui-corner-all ui-widget']")).click();
@@ -160,7 +163,7 @@ public class MbSearch {
 			}
 
 			
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			wait.until(ExpectedConditions.or(
 				    ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(), 'No records found')]")),
 				    ExpectedConditions.presenceOfElementLocated(By.xpath("//table[@class='ui-jqgrid-btable']"))
@@ -170,19 +173,14 @@ public class MbSearch {
 			WebElement statusBox= driver.findElement(By.xpath("//div[@class='status-box-text']"));
 				if(statusBox.getText().equalsIgnoreCase("No records found")) {
 					if(i != tabs.size()-1) {
-						if(i % 2 ==0 && i!=0 ) {
-							try {
-								driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
-								Thread.sleep(1000);
-							}
-							catch (org.openqa.selenium.NoSuchElementException  | ElementNotInteractableException e) {
-								nextTab.get(0).click();
-								continue;
-						    }
-
+						try {
+							nextTab.get(0).click();
 						}
-						nextTab.get(0).click();
-						//Thread.sleep(5000);
+						catch (org.openqa.selenium.NoSuchElementException  | ElementNotInteractableException e) {
+							driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
+							Thread.sleep(1000);
+							nextTab.get(0).click();
+						}
 					}
 
 				}
@@ -198,7 +196,7 @@ public class MbSearch {
 					List <WebElement> tbody = table.findElements(By.xpath("./child::*"));
 					List <WebElement> rows = tbody.get(0).findElements(By.xpath("./child::*"));
 					//List <WebElement> data = rows.get(1).findElements(By.xpath("./child::*"));
-					System.out.println("table is " + driver.findElement(By.xpath("//table[@class='ui-jqgrid-btable']")).getText());
+					//System.out.println("table is " + driver.findElement(By.xpath("//table[@class='ui-jqgrid-btable']")).getText());
 					
 					if (rows.size() > 1) {
 						for (WebElement row : rows) {
@@ -207,7 +205,7 @@ public class MbSearch {
 							}
 							
 							List <WebElement> tds = row.findElements(By.xpath("./child::*"));
-							if(tds.get(6).getText().equalsIgnoreCase("Triple A")) {
+							if(tds.get(6).getText().equalsIgnoreCase("Triple A") || tds.get(5).getText().equalsIgnoreCase(">SiriusXM")) {
 								station = tds.get(2).getText();
 								location = tds.get(5).getText();
 								spinCount = tds.get(11).getText();
@@ -217,24 +215,18 @@ public class MbSearch {
 							}
 						}
 					}
-
 					if(i != tabs.size()-1) {
-						if(i % 2 ==0) {
 							try {
-								driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
-								Thread.sleep(1000);
+								nextTab.get(0).click();
 							}
 							catch (org.openqa.selenium.NoSuchElementException  | ElementNotInteractableException e) {
-								nextTab.get(0).click();
-								continue;
+									driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
+									Thread.sleep(1000);
+									nextTab.get(0).click();
 						    }
-						}
-						nextTab.get(0).click();
 					}
-
 				}
 				
-				driver.findElement(By.xpath("//span[@class='mb-filter-button']")).click();
 		}
 	}
 
@@ -244,6 +236,25 @@ public class MbSearch {
 	
 		return allSpinData;
 	}
+
+	public int selectSongs(String currentArtist, WebDriver driver) {
+		List <WebElement> selectables= driver.findElements(By.xpath("//tr[@class='list-item selectable']"));
+		int numChecked = 0;
+		int numSelected = 0;
+		for (WebElement selectable : selectables) {
+			List<WebElement> tableData = selectable.findElements(By.xpath("./child::*"));
+			
+			if(tableData.get(1).getText().equalsIgnoreCase(currentArtist) && (tableData.get(4).getText().equalsIgnoreCase("2021") || tableData.get(4).getText().equalsIgnoreCase("2020"))) {
+				selectable.click();
+				numSelected++;
+			}
+			numChecked++;
+			if (numChecked >5) {
+				break;
+			}
+		}
+		return numSelected;
+	}
 	
 	public void addSpin(ArrayList <String[]> spinData, String currentArtist, Map<String, ArrayList <String>> spinsToPrint) throws Exception   {
 		if(spinData != null) {
@@ -251,7 +262,7 @@ public class MbSearch {
 			ArrayList <String> spins = new ArrayList<>();
 			
 			for (String[] spin : spinData) {
-					spins.add(currentArtist + "|" + spin[0] + "|" + spin[1] + "|" + spin[2] + "|" + spin[3]);
+					spins.add(currentArtist + "|" + spin[0] + "|" + spin[1] + "|" + spin[3]);
 			}
 			
 			spinsToPrint.put(currentArtist, spins);

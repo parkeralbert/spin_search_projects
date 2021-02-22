@@ -16,6 +16,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class JbeSearch extends SpinSearch{
 	
+	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+		
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+			artistInfo.add(line.trim());
+		}
+		
+	}
 	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
 		WebDriver driver = login(url);
 		

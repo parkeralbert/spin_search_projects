@@ -1,234 +1,41 @@
-Spinitron Spins: 
-KRUI|Django Django|Glowing in the Dark|Free From Gravity|2021-02-17|10:36 AM
-KGUA|Django Django|Glowing in the Dark|Glowing in the Dark|2021-02-17|9:47 AM
-KVSC|Django Django|Glowing In The Dark|Glowing In The Dark|2021-02-17|7:48 AM
-WTIP|Django Django|Glowing in the Dark|Glowing in the Dark|2021-02-17|5:47 AM
-KRUI|Django Django|Glowing in the Dark|Spirals|2021-02-17|5:32 AM
-WERA|Django Django|Glowing in the Dark|Asking for More|2021-02-17|4:06 AM
-KHOL|Django Django|Glowing in the Dark|Free from Gravity|2021-02-17|3:46 AM
-KVMR|Django Django|Spirals|Spirals|2021-02-17|1:18 AM
-WXPR|Django Django|Glowing in the Dark|Glowing in the Dark|2021-02-17|12:48 AM
-Radio DePaul|Django Django|Marble Skies|Champagne|2021-02-16|9:33 PM
-KRUI|Django Django|Glowing in the Dark|Glowing In The Dark|2021-02-16|9:31 PM
-WSCA|Django Django|Glowing in the Dark|Free from Gravity|2021-02-16|9:29 PM
-KDHX|Django Django|Glowing in the Dark|Waking Up (feat. Charlotte Gainsbourg)|2021-02-16|8:19 PM
-WTIP|Django Django|Glowing in the Dark|Glowing in the Dark|2021-02-16|6:48 PM
-WSCA|Django Django|Glowing in the Dark|Free from Gravity|2021-02-16|11:19 AM
-KUPR|Django Django|Glowing in the Dark|Waking Up|2021-02-16|9:12 AM
-KXSF|Django Django|Marble Dubs|Further|2021-02-16|6:58 AM
-Radio DePaul|Django Django|In Your Beat|In Your Beat|2021-02-16|5:12 AM
-WNRN|Django Django|Django Django|Default|2021-02-16|4:29 AM
-WSCA|Django Django|Glowing in the Dark|Free from Gravity|2021-02-16|2:07 AM
-WECI|Django Django|Marble Skies|TicTacToe|2021-02-15|10:16 PM
-WNMC|Django Django|r-044_Glow In The Dark|Glowing in the Dark|2021-02-15|9:40 PM
-KRCL|Django Django|Glowing in the Dark|Glowing in the Dark|2021-02-15|6:06 PM
-KVSC|Django Django|Glowing In The Dark|Glowing In The Dark|2021-02-15|3:33 PM
-KDNK|Django Django|Glowing in the Dark|Right the Wrongs|2021-02-15|2:48 PM
-WOMR|Django Django|Glowing in the Dark|Waking Up|2021-02-15|8:13 AM
-KUOM|Django Django|Glowing in the Dark|Asking for More|2021-02-15|7:26 AM
-Radio DePaul|Django Django|Marble Skies|Sundials|2021-02-15|6:37 AM
-WBTV|Django Django|First Light (Remixes)|First Light (Wrongtom Dub)|2021-02-15|6:28 AM
-KRUI|Django Django|Marble Skies|Marble Skies|2021-02-15|2:11 AM
-KGLT|Django Django|Glowing in the Dark|Night of the Buffalo|2021-02-14|5:23 PM
-KVSC|Django Django|Born Under Saturn|The Life We Know|2021-02-14|7:46 AM
-KXSF|Django Django|Glowing in the Dark|Waking Up (feat. Charlotte Gainsbourg)|2021-02-14|3:00 AM
-WNMC|Django Django|Glowing in the Dark|Spirals|2021-02-14|1:13 AM
-WSCA|Django Django|Glowing in the Dark|Free from Gravity|2021-02-14|12:17 AM
-WNMC|Django Django|Glowing in the Dark|Headrush|2021-02-13|11:30 PM
-WNMC|Django Django|Glowing in the Dark|Got Me Worried|2021-02-13|10:19 PM
-WUNH|Django Django|Free from Gravity - Single|Free from Gravity|2021-02-13|10:14 PM
-WVEW|Arlo Parks|Cola - Single|Cola|2021-02-17|3:27 PM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-17|3:20 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Black Dog|2021-02-17|3:07 PM
-KHOL|Arlo Parks|Collapsed In Sunbeams|Too Good|2021-02-17|2:42 PM
-WTBU|Arlo Parks|Sophie|Paperbacks|2021-02-17|2:36 PM
-WFHB|Arlo Parks|Collapsed In Sunbeams|Just Go|2021-02-17|1:29 PM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-17|1:24 PM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-17|1:09 PM
-WLUR|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-17|1:04 PM
-WSCA|Arlo Parks|Eugene|Eugene|2021-02-17|12:05 PM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-17|10:55 AM
-KCPR|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-17|10:34 AM
-WKNC|Arlo Parks|n/a|Too Good|2021-02-17|10:29 AM
-WBTV|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-17|10:16 AM
-KXCI|Arlo Parks|Collapsed in Sunbeams|Portra 400|2021-02-17|10:02 AM
-WZBC|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-17|9:51 AM
-WOMR|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-17|9:32 AM
-WUNH|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-17|9:24 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-17|9:09 AM
-KTUH|Arlo Parks|Hurt|Hurt|2021-02-17|8:32 AM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-17|7:43 AM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Eugene|2021-02-17|7:01 AM
-WFHB|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-17|6:55 AM
-KUOM|Arlo Parks|Collapsed in Sunbeams|Too Good|2021-02-17|5:40 AM
-WKNC HD2|Arlo Parks|n/a|Hurt|2021-02-17|5:28 AM
-KRUI|Arlo Parks|Collapsed in Sunbeams|For Violet|2021-02-17|5:09 AM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-17|4:47 AM
-KVMRx|Arlo Parks|Hurt|Hurt|2021-02-17|4:24 AM
-KUOM|Arlo Parks|KSC 9/8/20|Hurt|2021-02-17|3:55 AM
-WDBM|Arlo Parks|n/a|Black Dog|2021-02-17|3:42 AM
-WSCA|Arlo Parks|Eugene|Eugene|2021-02-17|3:40 AM
-KUOM|Arlo Parks|Collapsed in Sunbeams|For Violet|2021-02-17|2:48 AM
-WLTL|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-17|2:43 AM
-KUOM|Arlo Parks|KSC 11/2/2020|Green Eyes|2021-02-17|2:01 AM
-WDBM|Arlo Parks|Collapsed in Sunbeams|Portra 400|2021-02-17|1:36 AM
-KUOM|Arlo Parks|KSC 11/30|Black Dog|2021-02-17|12:57 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-17|12:55 AM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-16|10:55 PM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-16|10:51 PM
-KXSF|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Bluish|2021-02-16|10:11 PM
-WLUW|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-16|10:00 PM
-KCSU|Arlo Parks|n/a|Hurt|2021-02-16|9:39 PM
-WXPR|Arlo Parks|Collapsed in Sunbeams|Bluish|2021-02-16|9:26 PM
-KCSU|Arlo Parks|n/a|Black Dog|2021-02-16|9:16 PM
-KVNF|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Collapsed In Sunbeams|2021-02-16|9:15 PM
-KUOM|Arlo Parks|Collapsed in Sunbeams|Black Dog|2021-02-16|9:15 PM
-WMXM|Arlo Parks|Collapsed In Sunbeams|Hurt|2021-02-16|8:50 PM
-KWUR|Arlo Parks|Collapsed in Sunbeams (Deluxe)|Black Dog|2021-02-16|8:10 PM
-KONR|Arlo Parks|n/a|Black Dog|2021-02-16|8:06 PM
-KMGP|Arlo Parks|Collapsed in Sunbeams|Eugene (clean)|2021-02-16|7:40 PM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-16|7:26 PM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-16|6:41 PM
-KVSC|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-16|6:05 PM
-KXCI|Arlo Parks|Collapsed In Sunbeams|Hurt|2021-02-16|4:13 PM
-KVSC|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-16|3:54 PM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Portra 400|2021-02-16|3:42 PM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-16|3:22 PM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-16|3:18 PM
-KUPR|Arlo Parks|Hurt|Hurt|2021-02-16|3:11 PM
-WRUV|Arlo Parks|Collapsed in Sunbeams (Deluxe)|Hurt|2021-02-16|3:07 PM
-RadioBoise|Arlo Parks|Collapsed in Sunbeams|Too Good|2021-02-16|2:57 PM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-16|2:38 PM
-WKNC|Arlo Parks|n/a|Too Good|2021-02-16|2:05 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-16|2:01 PM
-KSCU|Arlo Parks|Collapsed In Sunbeams|Too Good|2021-02-16|1:12 PM
-KCSU|Arlo Parks|n/a|Just Go|2021-02-16|11:46 AM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-16|10:56 AM
-KDHX|Arlo Parks|Collapsed in Sunbeams|Too Good|2021-02-16|10:19 AM
-KXCI|Arlo Parks|Collapsed in Sunbeams|Hope|2021-02-16|10:01 AM
-KVSC|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-16|9:29 AM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-16|9:20 AM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-16|9:02 AM
-WSCA|Arlo Parks|Eugene|Eugene|2021-02-16|8:31 AM
-WKNC|Arlo Parks|n/a|Portra 400|2021-02-16|7:59 AM
-WDBM|Arlo Parks|Collapsed in Sunbeams|Portra 400|2021-02-16|7:50 AM
-KUOM|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-16|7:08 AM
-KCPR|Arlo Parks|Collapsed in Sunbeams|For Violet|2021-02-16|5:38 AM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-16|5:03 AM
-KMGP|Arlo Parks|Collapsed in Sunbeams|Eugene (clean)|2021-02-16|4:04 AM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Eugene|2021-02-16|3:06 AM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-16|2:27 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-16|1:47 AM
-KWUR|Arlo Parks|Collapsed in Sunbeams|Hope|2021-02-16|12:31 AM
-KRLX|Arlo Parks|Angel's Song|Angel's Song|2021-02-16|12:04 AM
-KMGP|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-16|12:03 AM
-KSDT|Arlo Parks|Collapsed in Sunbeams (Deluxe)|Collapsed in Sunbeams|2021-02-16|12:02 AM
-KCSU|Arlo Parks|n/a|Green Eyes|2021-02-15|11:42 PM
-KMNO|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|10:55 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-15|10:45 PM
-WFNP|Arlo Parks|Cola - Single|Cola|2021-02-15|10:37 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Black Dog|2021-02-15|9:59 PM
-WRUV|Arlo Parks|Collapsed in Sunbeams|Hope - 2021|2021-02-15|9:13 PM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|8:41 PM
-WBAR|Arlo Parks|Collapsed in Sunbeams|Black Dog|2021-02-15|7:56 PM
-WBAR|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-15|7:23 PM
-WBAR|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|7:14 PM
-WBAR|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-15|6:47 PM
-WBAR|Arlo Parks|Collapsed in Sunbeams|For Violet|2021-02-15|6:42 PM
-KRCL|Arlo Parks|Green Eyes|Green Eyes|2021-02-15|6:39 PM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-15|6:29 PM
-KXCI|Arlo Parks|Collapsed in Sunbeams|Hope|2021-02-15|6:25 PM
-WBAR|Arlo Parks|Eugene - Single|Eugene|2021-02-15|6:16 PM
-WKNC HD2|Arlo Parks|n/a|Portra 400|2021-02-15|5:59 PM
-WZBT|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-15|5:56 PM
-KDUR|Arlo Parks|Collapsed in Sunbeams|Too Good|2021-02-15|5:30 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Eugene|2021-02-15|5:13 PM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|3:59 PM
-WDBM|Arlo Parks|Collapsed in Sunbeams|Portra 400|2021-02-15|3:49 PM
-KSCU|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-15|3:38 PM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-15|3:31 PM
-WFHB|Arlo Parks|Green Eyes|Green Eyes|2021-02-15|3:19 PM
-KSCU|Arlo Parks|Collapsed In Sunbeams|Too Good|2021-02-15|3:01 PM
-WLTL|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-15|2:40 PM
-KRCL|Arlo Parks|Hurt|Hurt|2021-02-15|2:27 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-15|1:23 PM
-KMGP|Arlo Parks|Collapsed in Sunbeams|Eugene (clean)|2021-02-15|1:04 PM
-WQFS|Arlo Parks|Collapsed in Sunbeams|Hope|2021-02-15|11:15 AM
-WCYT|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|11:13 AM
-KXCI|Arlo Parks|Collapsed in Sunbeams|Just Go|2021-02-15|10:21 AM
-KCSU|Arlo Parks|n/a|Caroline|2021-02-15|10:02 AM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-15|9:36 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-15|9:27 AM
-KDUR|Arlo Parks|Collapsed in Sunbeams|Too Good|2021-02-15|9:25 AM
-WFHB|Arlo Parks|Black Dog|Black Dog|2021-02-15|9:24 AM
-KCPR|Arlo Parks|Collapsed in Sunbeams|Hope|2021-02-15|8:38 AM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|8:27 AM
-KGLT|Arlo Parks|Black Dog|Black Dog|2021-02-15|8:09 AM
-WMPG|Arlo Parks|Black Dog|Black Dog|2021-02-15|7:04 AM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-15|7:03 AM
-WFHB|Arlo Parks|Green Eyes|Green Eyes|2021-02-15|6:27 AM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-15|5:56 AM
-KMGP|Arlo Parks|n/a|Black Dog|2021-02-15|5:44 AM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Green Eyes|2021-02-15|5:03 AM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-15|4:48 AM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Eugene|2021-02-15|3:36 AM
-WKNC HD2|Arlo Parks|n/a|Too Good|2021-02-15|2:28 AM
-KRCL|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-15|2:17 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-15|1:38 AM
-KMGP|Arlo Parks|Collapsed in Sunbeams|Eugene (clean)|2021-02-15|12:02 AM
-WTBU|Arlo Parks|Eugene|Eugene|2021-02-14|11:51 PM
-WCYT|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-14|10:25 PM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-14|8:01 PM
-KWUR|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-14|7:38 PM
-WKNC HD2|Arlo Parks|n/a|Caroline|2021-02-14|7:22 PM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-14|6:52 PM
-KUOM|Arlo Parks|Collapsed in Sunbeams|Too Good|2021-02-14|6:31 PM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-14|6:11 PM
-KCPR|Arlo Parks|Collapsed in Sunbeams|Portra 400|2021-02-14|6:06 PM
-Newtown|Arlo Parks|Collapsed In Sunbeams (Deluxe)|Hope|2021-02-14|5:03 PM
-KCSU|Arlo Parks|n/a|Too Good|2021-02-14|4:29 PM
-WKNC|Arlo Parks|n/a|Portra 400|2021-02-14|3:31 PM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-14|2:55 PM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-14|2:45 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|For Violet|2021-02-14|12:27 PM
-KWUR|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-14|12:23 PM
-WRUW|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-14|11:39 AM
-WMPG|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-14|11:20 AM
-WSCA|Arlo Parks|Eugene|Eugene|2021-02-14|9:51 AM
-WRUW|Arlo Parks|Collapsed In Sunbeams|Hope|2021-02-14|9:14 AM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-14|9:06 AM
-WKNC|Arlo Parks|n/a|Eugene|2021-02-14|8:32 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-14|5:54 AM
-WKNC HD2|Arlo Parks|n/a|Portra 400|2021-02-14|4:05 AM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-14|3:19 AM
-WLTL|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-14|2:42 AM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-14|1:19 AM
-KCPR|Arlo Parks|Collapsed in Sunbeams|Black Dog|2021-02-14|1:07 AM
-WKNC HD2|Arlo Parks|n/a|Eugene|2021-02-13|11:16 PM
-KDNK|Arlo Parks|Black Dog|Black Dog|2021-02-13|10:33 PM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-13|10:18 PM
-CJRU|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-13|8:37 PM
-WSCA|Arlo Parks|Eugene|Eugene|2021-02-13|7:54 PM
-WMUA|Arlo Parks|Collapsed In Sunbeams|Hope|2021-02-13|6:19 PM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-13|6:15 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-13|6:02 PM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-13|3:37 PM
-WKNC|Arlo Parks|n/a|Eugene|2021-02-13|2:03 PM
-KMGP|Arlo Parks|Collapsed in Sunbeams|Eugene (clean)|2021-02-13|1:42 PM
-WNRN|Arlo Parks|Collapsed in Sunbeams|Hurt|2021-02-13|12:45 PM
-KRUI|Arlo Parks|Collapsed in Sunbeams|Black Dog|2021-02-13|11:26 AM
-KCPR|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-13|11:09 AM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-13|10:53 AM
-Newtown|Arlo Parks|Angel's Song|Angel's Song|2021-02-13|10:51 AM
-WXNA|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-13|10:30 AM
-WDCE|Arlo Parks|Collapsed in Sunbeams|Caroline|2021-02-13|10:17 AM
-WRUW|Arlo Parks|Collapsed in Sunbeams|Eugene|2021-02-13|10:08 AM
-WLUW|Arlo Parks|Eugene|Eugene|2021-02-13|8:30 AM
-KFAIonline|Arlo Parks|Collapsed in Sunbeams (Deluxe)|Black Dog|2021-02-13|8:06 AM
-WSCA|Arlo Parks|Eugene|Eugene|2021-02-13|7:41 AM
-WKNC|Arlo Parks|n/a|Caroline|2021-02-13|6:04 AM
-WCYT|Arlo Parks|Collapsed In Sunbeams|Black Dog|2021-02-13|4:57 AM
-KXCI|Arlo Parks|Collapsed In Sunbeams|Hurt|2021-02-13|4:32 AM
-KCPR|Arlo Parks|Collapsed in Sunbeams|Just Go|2021-02-13|4:25 AM
-WLUW|Arlo Parks|Green Eyes|Green Eyes|2021-02-13|3:38 AM
-WERA|Arlo Parks|Collapsed In Sunbeams|Caroline|2021-02-13|3:16 AM
+Mediabase Spins:
+Sun June|KGSR-F2|Austin|Bad With Time
+Sun June|WXPN-FM|Philadelphia|Everything I Had
+Sun June|WXPN-FM|Philadelphia|Singing
+Pearl Charles|WFUV-FM|New York|Imposter
+Slaughter Beach, Dog|MCAA-FM|>Music Choice|Are You There
+Slaughter Beach, Dog|WXPN-FM|Philadelphia|Are You There
+Miss Grit|KCMP-FM|Minneapolis|Grow Up To
+Miss Grit|KCMP-FM|Minneapolis|Impostor
+IAN SWEET|WFUV-FM|New York|Drink The Lake
+Django Django|KCMP-FM|Minneapolis|Default
+Django Django|KKXT-FM|Dallas|Default
+Django Django|WRLT-FM|Nashville|Default
+Squid|KCMP-FM|Minneapolis|Narrator
+Squid|WXPN-FM|Philadelphia|Narrator
+Molly Burch|KGSR-F2|Austin|Emotion f/Wild Nothing
+Molly Burch|WPYA-F2|Birmingham|Emotion f/Wild Nothing
+Katy Kirby|KKXT-FM|Dallas|Juniper
+Katy Kirby|WXPN-FM|Philadelphia|Juniper
+Middle Kids|MCAA-FM|>Music Choice|Edge Of Town
+Middle Kids|WXPK-FM|Hudson Valley, N|Edge Of Town
+Lael Neale|WFUV-FM|New York|Every Star Shivers In The Dark
+Xiu Xiu|WFUV-FM|New York|A Bottle of Rum f/Liz Harris
+Xiu Xiu|WQKL-FM|Ann Arbor, MI|A Bottle of Rum f/Liz Harris
+Xiu Xiu|WXPN-FM|Philadelphia|A Bottle of Rum f/Liz Harris
+Arlo Parks|KCMP-FM|Minneapolis|Black Dog
+Arlo Parks|WTTS-FM|Indianapolis|Caroline
+Arlo Parks|WFUV-FM|New York|Eugene
+Arlo Parks|KCMP-FM|Minneapolis|Green Eyes
+Arlo Parks|KKXT-FM|Dallas|Green Eyes
+Arlo Parks|KCMP-FM|Minneapolis|Hurt
+Arlo Parks|KKXT-FM|Dallas|Hurt
+Arlo Parks|KRVB-FM|Boise, ID|Hurt
+Arlo Parks|MCAA-FM|>Music Choice|Hurt
+Arlo Parks|WFUV-FM|New York|Hurt
+Arlo Parks|WPYA-F2|Birmingham|Hurt
+Arlo Parks|WQKL-FM|Ann Arbor, MI|Hurt
+Arlo Parks|WRLT-FM|Nashville|Hurt
+Arlo Parks|WRNR-FM|Baltimore|Hurt
+Arlo Parks|WXPK-FM|Hudson Valley, N|Hurt
+Arlo Parks|WXPN-FM|Philadelphia|Hurt

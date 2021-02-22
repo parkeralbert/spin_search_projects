@@ -21,6 +21,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class StSearch extends SpinSearch{
 	
+	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+		
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+			artistInfo.add(line.trim());
+		}
+		
+	}
+	
 	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
 		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath);
 		outputSpinsByArtist(outputPath, spinsByArtist, append);
