@@ -119,6 +119,9 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
 		
 		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+			if (line.indexOf("*") == 0) {
+				line = line.replace("*", "");
+			}
 			artistInfo.add(line.trim());
 		}
 		

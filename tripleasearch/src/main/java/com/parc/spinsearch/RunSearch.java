@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class RunSearch {
 
 	public static void main(String[] args) {
-		//System.setProperty("webdriver.chrome.driver", "/opt/WebDriver/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/opt/WebDriver/bin/chromedriver");
 		//System.setProperty("webdriver.gecko.driver", "/opt/WebDriver/bin/geckodriver");
 		String inputPath = "artist_input.txt";
 		String outputPath;
@@ -38,8 +38,9 @@ public class RunSearch {
 			}
 			
 			if (args.length == 1 && args[0].equalsIgnoreCase("mediabase")){
+				ArrayList<String> mbArtistInfo = mb.getArtistList(inputPath);
 				outputPath = "mediabase_spin_data.txt";
-				mb.spinSearch("https://www2.mediabase.com/mbapp/Account/Login?ReturnUrl=%2Fmbapp%2F", artistInfo, outputPath, inputPath, false);
+				mb.spinSearch("https://www2.mediabase.com/mbapp/Account/Login?ReturnUrl=%2Fmbapp%2F", mbArtistInfo, outputPath, inputPath, false);
 				//mb.testButton("https://www2.mediabase.com");
 			}
 			

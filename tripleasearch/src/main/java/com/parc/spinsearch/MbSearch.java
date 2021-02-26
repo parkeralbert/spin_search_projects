@@ -1,6 +1,8 @@
 package com.parc.spinsearch;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -16,11 +18,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MbSearch {
+public class MbSearch{
+	
 	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+		
 		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
-			artistInfo.add(line.trim());
+			if (!(line.indexOf("*") == 0)) {
+				artistInfo.add(line.trim());
+			}
+
 		}
+		
 	}
 	
 	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
@@ -170,7 +178,7 @@ public class MbSearch {
 				)); 
 			
 			//wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(text(),'status-box-text']")));
-			WebElement statusBox= driver.findElement(By.xpath("//div[@class='status-box-text']"));
+			/*WebElement statusBox= driver.findElement(By.xpath("//div[@class='status-box-text']"));
 				if(statusBox.getText().equalsIgnoreCase("No records found")) {
 					if(i != tabs.size()-1) {
 						try {
@@ -183,8 +191,7 @@ public class MbSearch {
 						}
 					}
 
-				}
-				else {
+				}*/
 					List<WebElement> thisTab =  tabs.get(i).findElements(By.xpath("./child::*"));
 					List<WebElement> tabText = thisTab.get(0).findElements(By.xpath("./child::*"));
 					List<WebElement> songDiv = tabText.get(0).findElements(By.xpath("./child::*"));
@@ -225,7 +232,6 @@ public class MbSearch {
 									nextTab.get(0).click();
 						    }
 					}
-				}
 				
 		}
 	}
@@ -238,22 +244,83 @@ public class MbSearch {
 	}
 
 	public int selectSongs(String currentArtist, WebDriver driver) {
-		List <WebElement> selectables= driver.findElements(By.xpath("//tr[@class='list-item selectable']"));
-		int numChecked = 0;
 		int numSelected = 0;
-		for (WebElement selectable : selectables) {
-			List<WebElement> tableData = selectable.findElements(By.xpath("./child::*"));
+		try {
+			WebElement searchResults= driver.findElement(By.xpath("//div[@class='mb-count']"));
+			String numResults = searchResults.getText().replaceAll(" items", "");
+			int resultNumber = Integer.parseInt(numResults);  
 			
-			if(tableData.get(1).getText().equalsIgnoreCase(currentArtist) && (tableData.get(4).getText().equalsIgnoreCase("2021") || tableData.get(4).getText().equalsIgnoreCase("2020"))) {
-				selectable.click();
-				numSelected++;
+			if(resultNumber > 300) {
+				return numSelected;
 			}
-			numChecked++;
-			if (numChecked >5) {
-				break;
+			
+			List <WebElement> sortButtons = driver.findElements(By.xpath("//span[@class='ui-icon-asc ui-sort-ltr ui-icon ui-icon-triangle-1-n']"));
+			sortButtons.get(3).click();
+			WebDriverWait wait = new WebDriverWait(driver, 1000);
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@class = 'ui-icon-asc ui-sort-ltr ui-icon ui-icon-triangle-1-n ui-state-disabled']")));
+			
+			WebElement firstResult= driver.findElement(By.xpath("//tr[@class='list-item selectable']"));
+			List<WebElement> resultData = firstResult.findElements(By.xpath("./child::*"));
+			if(resultData.get(1).getText().equalsIgnoreCase(currentArtist) && (resultData.get(4).getText().equalsIgnoreCase("2021") || resultData.get(4).getText().equalsIgnoreCase("2020"))) {
+				
 			}
+			else {
+				return numSelected;
+			}
+			
+			List <WebElement> selectables= driver.findElements(By.xpath("//tr[@class='list-item selectable'] | //tr[@class='list-item selectable hover']"));
+			List<WebElement> tableData = null;
+			WebElement selectable = null;
+			for (int i = 0; i < selectables.size(); i++) {
+				if (numSelected == 0) {
+					selectable = selectables.get(0);
+					tableData = selectable.findElements(By.xpath("./child::*"));
+				}
+				if (numSelected > 0) {
+					List <WebElement> newSelectables= driver.findElements(By.xpath("//tr[@class='list-item selectable'] | //tr[@class='list-item selectable hover']"));
+					selectable = newSelectables.get(0);
+					tableData = newSelectables.get(0).findElements(By.xpath("./child::*"));
+				}
+				if(tableData.get(1).getText().equalsIgnoreCase(currentArtist)   && (tableData.get(4).getText().equalsIgnoreCase("2021") || tableData.get(4).getText().equalsIgnoreCase("2020"))) {
+					selectable.click();
+					numSelected++;
+					Thread.sleep(2000);
+				}
+				if (numSelected == 0) {
+					break;
+				}
+			}
+		
+		}
+		catch(org.openqa.selenium.NoSuchElementException | InterruptedException e){
+			
 		}
 		return numSelected;
+	}
+	
+	public ArrayList <String> getArtistList(String artistInputPath){
+		String line = null;
+		ArrayList<String> artistNames = new ArrayList<String>(); 
+		try
+		{
+			BufferedReader artistReader = new BufferedReader(new FileReader(artistInputPath));
+			while ((line = artistReader.readLine()) != null)
+			{
+
+				addArtistNames(line, artistNames);
+				
+			}
+			artistReader.close();
+			
+		}
+		catch (Exception e)
+		{
+			System.err.println("Error: " + e);
+			e.printStackTrace();
+		}
+		
+		return artistNames;
+        
 	}
 	
 	public void addSpin(ArrayList <String[]> spinData, String currentArtist, Map<String, ArrayList <String>> spinsToPrint) throws Exception   {
@@ -262,7 +329,7 @@ public class MbSearch {
 			ArrayList <String> spins = new ArrayList<>();
 			
 			for (String[] spin : spinData) {
-					spins.add(currentArtist + "|" + spin[0] + "|" + spin[1] + "|" + spin[3]);
+					spins.add(currentArtist + "|" + spin[0] + "|" + spin[1] + "|" + spin[3] + "|" + spin[4]);
 			}
 			
 			spinsToPrint.put(currentArtist, spins);

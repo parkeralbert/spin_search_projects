@@ -1,41 +1,12 @@
 Mediabase Spins:
-Sun June|KGSR-F2|Austin|Bad With Time
-Sun June|WXPN-FM|Philadelphia|Everything I Had
-Sun June|WXPN-FM|Philadelphia|Singing
-Pearl Charles|WFUV-FM|New York|Imposter
-Slaughter Beach, Dog|MCAA-FM|>Music Choice|Are You There
-Slaughter Beach, Dog|WXPN-FM|Philadelphia|Are You There
-Miss Grit|KCMP-FM|Minneapolis|Grow Up To
-Miss Grit|KCMP-FM|Minneapolis|Impostor
-IAN SWEET|WFUV-FM|New York|Drink The Lake
-Django Django|KCMP-FM|Minneapolis|Default
-Django Django|KKXT-FM|Dallas|Default
-Django Django|WRLT-FM|Nashville|Default
-Squid|KCMP-FM|Minneapolis|Narrator
-Squid|WXPN-FM|Philadelphia|Narrator
-Molly Burch|KGSR-F2|Austin|Emotion f/Wild Nothing
-Molly Burch|WPYA-F2|Birmingham|Emotion f/Wild Nothing
-Katy Kirby|KKXT-FM|Dallas|Juniper
-Katy Kirby|WXPN-FM|Philadelphia|Juniper
-Middle Kids|MCAA-FM|>Music Choice|Edge Of Town
-Middle Kids|WXPK-FM|Hudson Valley, N|Edge Of Town
-Lael Neale|WFUV-FM|New York|Every Star Shivers In The Dark
-Xiu Xiu|WFUV-FM|New York|A Bottle of Rum f/Liz Harris
-Xiu Xiu|WQKL-FM|Ann Arbor, MI|A Bottle of Rum f/Liz Harris
-Xiu Xiu|WXPN-FM|Philadelphia|A Bottle of Rum f/Liz Harris
-Arlo Parks|KCMP-FM|Minneapolis|Black Dog
-Arlo Parks|WTTS-FM|Indianapolis|Caroline
-Arlo Parks|WFUV-FM|New York|Eugene
-Arlo Parks|KCMP-FM|Minneapolis|Green Eyes
-Arlo Parks|KKXT-FM|Dallas|Green Eyes
-Arlo Parks|KCMP-FM|Minneapolis|Hurt
-Arlo Parks|KKXT-FM|Dallas|Hurt
-Arlo Parks|KRVB-FM|Boise, ID|Hurt
-Arlo Parks|MCAA-FM|>Music Choice|Hurt
-Arlo Parks|WFUV-FM|New York|Hurt
-Arlo Parks|WPYA-F2|Birmingham|Hurt
-Arlo Parks|WQKL-FM|Ann Arbor, MI|Hurt
-Arlo Parks|WRLT-FM|Nashville|Hurt
-Arlo Parks|WRNR-FM|Baltimore|Hurt
-Arlo Parks|WXPK-FM|Hudson Valley, N|Hurt
-Arlo Parks|WXPN-FM|Philadelphia|Hurt
+Middle Kids|KCMP-FM|Minneapolis|Questions|6
+Middle Kids|KKXT-FM|Dallas|Questions|11
+Middle Kids|MCAA-FM|>Music Choice|Questions|11
+Middle Kids|WFUV-FM|New York|Questions|12
+Middle Kids|WPYA-F2|Birmingham|Questions|1
+Middle Kids|WRLT-FM|Nashville|Questions|7
+Middle Kids|WXPK-FM|Hudson Valley, N|Questions|4
+Middle Kids|WXPN-FM|Philadelphia|Questions|5
+Middle Kids|WXRT-FM|Chicago|Questions|1
+Middle Kids|KKXT-FM|Dallas|R U 4 Me?|2
+Middle Kids|WXPK-FM|Hudson Valley, N|R U 4 Me?|7
