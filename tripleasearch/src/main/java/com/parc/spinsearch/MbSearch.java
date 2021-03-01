@@ -15,6 +15,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -69,11 +70,16 @@ public class MbSearch{
 	public Map<String, ArrayList <String>> getSpins(ArrayList<String> artistInfo, String filePath, String inputPath, WebDriver driver) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
 	
-		
-	    for (String currentArtist : artistInfo) {
-				ArrayList<String[]> spinData = getSpinData(currentArtist, driver);
-				addSpin(spinData, currentArtist, spinsToPrint);
-	    }
+		try {
+		    for (String currentArtist : artistInfo) {
+					ArrayList<String[]> spinData = getSpinData(currentArtist, driver);
+					addSpin(spinData, currentArtist, spinsToPrint);
+		    }
+		}
+		finally {
+		    driver.quit();
+		}
+
 	    
 		return spinsToPrint;
 
@@ -145,7 +151,6 @@ public class MbSearch{
 			return null;		
 		}
 		
-		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@class='mb-btn-add']")).click();
 		driver.findElement(By.xpath("//button[@class='dlg-btn-ok ui-button ui-corner-all ui-widget']")).click();
 
@@ -258,7 +263,6 @@ public class MbSearch{
 			sortButtons.get(3).click();
 			WebDriverWait wait = new WebDriverWait(driver, 1000);
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@class = 'ui-icon-asc ui-sort-ltr ui-icon ui-icon-triangle-1-n ui-state-disabled']")));
-			
 			WebElement firstResult= driver.findElement(By.xpath("//tr[@class='list-item selectable']"));
 			List<WebElement> resultData = firstResult.findElements(By.xpath("./child::*"));
 			if(resultData.get(1).getText().equalsIgnoreCase(currentArtist) && (resultData.get(4).getText().equalsIgnoreCase("2021") || resultData.get(4).getText().equalsIgnoreCase("2020"))) {
@@ -269,9 +273,34 @@ public class MbSearch{
 			}
 			
 			List <WebElement> selectables= driver.findElements(By.xpath("//tr[@class='list-item selectable'] | //tr[@class='list-item selectable hover']"));
+/*			
+			selectables.get(0).click();
+			selectables.get(1).click();
+			selectables.get(2).click();
+			numSelected = 3;
+*/			
 			List<WebElement> tableData = null;
-			WebElement selectable = null;
-			for (int i = 0; i < selectables.size(); i++) {
+			//WebElement selectable = null;
+			Actions actions = new Actions(driver);
+			//actions.moveToElement(menuOption).perform();
+			for (WebElement selectable : selectables) {
+				tableData = selectable.findElements(By.xpath("./child::*"));
+				
+				if(tableData.get(1).getText().equalsIgnoreCase(currentArtist)   && (tableData.get(4).getText().equalsIgnoreCase("2021") || tableData.get(4).getText().equalsIgnoreCase("2020"))) {
+					actions.moveToElement(selectable).perform();
+					selectable = driver.findElement(By.xpath("//tr[@class='list-item selectable hover']"));
+					selectable.click();
+					numSelected++;
+				}
+				
+				if (numSelected == 0) {
+					break;
+				}
+			}
+			
+			
+			
+			/*for (int i = 0; i < selectables.size(); i++) {
 				if (numSelected == 0) {
 					selectable = selectables.get(0);
 					tableData = selectable.findElements(By.xpath("./child::*"));
@@ -289,10 +318,10 @@ public class MbSearch{
 				if (numSelected == 0) {
 					break;
 				}
-			}
+			}*/
 		
 		}
-		catch(org.openqa.selenium.NoSuchElementException | InterruptedException e){
+		catch(org.openqa.selenium.NoSuchElementException  e){
 			
 		}
 		return numSelected;

@@ -1,12 +1,1 @@
 Mediabase Spins:
-Middle Kids|KCMP-FM|Minneapolis|Questions|6
-Middle Kids|KKXT-FM|Dallas|Questions|11
-Middle Kids|MCAA-FM|>Music Choice|Questions|11
-Middle Kids|WFUV-FM|New York|Questions|12
-Middle Kids|WPYA-F2|Birmingham|Questions|1
-Middle Kids|WRLT-FM|Nashville|Questions|7
-Middle Kids|WXPK-FM|Hudson Valley, N|Questions|4
-Middle Kids|WXPN-FM|Philadelphia|Questions|5
-Middle Kids|WXRT-FM|Chicago|Questions|1
-Middle Kids|KKXT-FM|Dallas|R U 4 Me?|2
-Middle Kids|WXPK-FM|Hudson Valley, N|R U 4 Me?|7
