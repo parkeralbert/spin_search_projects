@@ -37,7 +37,7 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 	         return null;
 	     }
 	}
-	/*
+
 	public Date getFirstDayOfWeek(String filePath) {
 		Date firstDayOfWeek = null;
 		String line = null;
@@ -46,7 +46,7 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 			BufferedReader reader = new BufferedReader(new FileReader(filePath));
 			while ((line = reader.readLine()) != null && firstDayOfWeek == null)
 			{
-				firstDayOfWeek = parseUrlDate(line);
+				firstDayOfWeek = parseFirstDayOfWeek(line);
 			}
 			reader.close();
 		}
@@ -55,12 +55,10 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 			System.err.println("Error: " + e);
 		}
 
-		return firstDayOfWeek; 
+		return firstDayOfWeek;
 	}
-	*/
-
-
 	
+	//reads last date on input file and stores it
 	public Date getLastDayOfWeek(String filePath) {
 		Date lastDayOfWeek = null;
 		String line = null;
@@ -79,11 +77,27 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 		}
 		return lastDayOfWeek;
 	}
+
+	
+	public static Date parseFirstDayOfWeek(String line) {
+		Date firstDayOfWeek = null;
+		if(line.indexOf("Date:") != -1) {
+			if (line.contains("\"")) {
+				line = line.replaceAll("\"", "");
+			}
+			String[] segments = line.trim().substring(6).split(" - ");
+			firstDayOfWeek = parseDateAndTime(segments[0]);
+		}
+		return firstDayOfWeek;
+	}
 	
 	public static Date parseLastDayOfWeek(String line) {
 		Date lastDayOfWeek = null;
 		if(line.indexOf("Date:") != -1) {
-			String[] segments = line.substring(6).split(" - ");
+			if (line.contains("\"")) {
+				line = line.replaceAll("\"", "");
+			}
+			String[] segments = line.trim().substring(6).split(" - ");
 			lastDayOfWeek = parseDateAndTime(segments[1]);
 		}
 		return lastDayOfWeek;
@@ -116,9 +130,9 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
         
 	}
 	
-	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+	public void addArtistNames(String line, ArrayList<String> artistInfo) {
 		
-		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:") && !line.contains("https://")) {
 			if (line.indexOf("*") == 0) {
 				line = line.replace("*", "");
 			}

@@ -206,7 +206,7 @@ public class StSearch extends SpinSearch{
 					}
 					
 					if (artist.equalsIgnoreCase(currentArtist)) {
-						spins.add(stationName + "|" + artist + "|" + album + "|" + song + "|" + date);
+						spins.add("Spinitron" + "|" + artist + "|" + album + "|" + song + "|" +  stationName + "|" + "-" + "|" + "-" + "|" + date + "|" + "-");
 						System.out.println("Spin for " + currentArtist + ": "+ spin);
 					}
 

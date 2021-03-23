@@ -1,0 +1,56 @@
+SubModern Spins: 
+SubModern|Middle Kids|-|QUESTIONS|Passport Approved|-|-|-|-|1
+SubModern|Middle Kids|-|QUESTIONS|WRFF|-|-|-|-|1
+SubModern|Slaughter Beach, Dog|-|MODERN|WVMO|-|-|-|-|1
+SubModern|Miss Grit|-|IMPOSTOR|KACV|-|-|-|-|1
+SubModern|Miss Grit|-|GROW|WEQX|-|-|-|-|1
+SubModern|Another Michael|-|KNOW|KACV|-|-|-|-|1
+SubModern|Another Michael|-|SHAKY|WRSI|-|-|-|-|1
+SubModern|Wallice|-|23|KEBF|-|-|-|-|1
+SubModern|Wallice|-|23|WCSF|-|-|-|-|1
+SubModern|Wallice|-|23|WIOX|-|-|-|-|1
+SubModern|Wallice|-|23|WQRR|-|-|-|-|1
+SubModern|Citizen|-|BLACK|KXRN|-|-|-|-|2
+SubModern|Citizen|-|BLACK|KACV|-|-|-|-|1
+SubModern|Citizen|-|BLACK|KFCF|-|-|-|-|1
+SubModern|Citizen|-|BLACK|KJEE|-|-|-|-|1
+SubModern|Citizen|-|BLACK|KTCL|-|-|-|-|1
+SubModern|Citizen|-|BLACK|KVOQ|-|-|-|-|1
+SubModern|Citizen|-|BLACK|WQRR|-|-|-|-|1
+SubModern|Citizen|-|BLACK|WUNH|-|-|-|-|1
+SubModern|Citizen|-|BLACK|XTRA|-|-|-|-|1
+SubModern|IAN SWEET|-|SWORD|KUTX|-|-|-|-|1
+SubModern|IAN SWEET|-|SWORD|KXRN|-|-|-|-|1
+SubModern|IAN SWEET|-|DRINK|WCYY|-|-|-|-|1
+SubModern|IAN SWEET|-|DRINK|WFUV|-|-|-|-|1
+SubModern|IAN SWEET|-|DRINK|WRSI|-|-|-|-|1
+SubModern|Django Django|-|GLOWING|KACV|-|-|-|-|1
+SubModern|Django Django|-|WAKING|KVOQ|-|-|-|-|1
+SubModern|Squid|-|NARRATOR|KBUU|-|-|-|-|1
+SubModern|Squid|-|NARRATOR|WFUV|-|-|-|-|1
+SubModern|Squid|-|NARRATOR|WWCD|-|-|-|-|1
+SubModern|Lael Neale|-|ACQUAINTED|KDHX|-|-|-|-|1
+SubModern|Lael Neale|-|BLUE|WPNH|-|-|-|-|1
+SubModern|Lael Neale|-|WHITE|WRUV|-|-|-|-|1
+SubModern|Cloud Nothings|-|LONGER|KBRE|-|-|-|-|1
+SubModern|Cloud Nothings|-|NOTHING|KDHX|-|-|-|-|1
+SubModern|Cloud Nothings|-|AM|KIWR|-|-|-|-|1
+SubModern|Cloud Nothings|-|SPIRIT|WPNH|-|-|-|-|1
+SubModern|Cloud Nothings|-|NOTHING|WWCD|-|-|-|-|1
+SubModern|Cloud Nothings|-|NOTHING|WWJK|-|-|-|-|1
+SubModern|Xiu Xiu|-|RUMPUS|WEQX|-|-|-|-|2
+SubModern|Xiu Xiu|-|RUMPUS|KXRN|-|-|-|-|1
+SubModern|Xiu Xiu|-|BOTTLE|WFUV|-|-|-|-|1
+SubModern|Xiu Xiu|-|BOTTLE|WKQX|-|-|-|-|1
+SubModern|Rinse|-|WHAT|KDHX|-|-|-|-|1
+SubModern|Rinse|-|BACK|KFMG|-|-|-|-|1
+SubModern|Rinse|-|BACK|WPNH|-|-|-|-|1
+SubModern|Juan Wauters|-|UNITY|KJEE|-|-|-|-|1
+SubModern|Juan Wauters|-|UNITY|KVOQ|-|-|-|-|1
+SubModern|Juan Wauters|-|UNITY|WSOU|-|-|-|-|1
+SubModern|Arlo Parks|-|HURT|WAQX|-|-|-|-|1
+SubModern|Arlo Parks|-|TOO|WBJB|-|-|-|-|1
+SubModern|Arlo Parks|-|HURT|WPNH|-|-|-|-|1
+SubModern|Arlo Parks|-|EUGENE|WRFF|-|-|-|-|1
+SubModern|Arlo Parks|-|TOO|WRUV|-|-|-|-|1
+SubModern|Arlo Parks|-|HURT|WSOU|-|-|-|-|1

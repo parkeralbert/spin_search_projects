@@ -21,9 +21,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MbSearch{
 	
-	public static void addArtistNames(String line, ArrayList<String> artistInfo) {
+	public void addArtistNames(String line, ArrayList<String> artistInfo) {
 		
-		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:")) {
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:") && !line.contains("https://")) {
 			if (!(line.indexOf("*") == 0)) {
 				artistInfo.add(line.trim());
 			}
@@ -69,11 +69,12 @@ public class MbSearch{
 	
 	public Map<String, ArrayList <String>> getSpins(ArrayList<String> artistInfo, String filePath, String inputPath, WebDriver driver) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
-	
+		int iterator = 0;
 		try {
 		    for (String currentArtist : artistInfo) {
-					ArrayList<String[]> spinData = getSpinData(currentArtist, driver);
+					ArrayList<String[]> spinData = getSpinData(currentArtist, driver, iterator);
 					addSpin(spinData, currentArtist, spinsToPrint);
+					iterator++;
 		    }
 		}
 		finally {
@@ -86,17 +87,29 @@ public class MbSearch{
 	}
 	
 	
-	public ArrayList <String[]> getSpinData(String currentArtist, WebDriver driver){
+	public ArrayList <String[]> getSpinData(String currentArtist, WebDriver driver, int iterator){
 		ArrayList <String[]> allSpinData = new ArrayList<>();
+		WebDriverWait wait = new WebDriverWait(driver, 1000);
 		try {
 		driver.get("https://www2.mediabase.com/mbapp/SongAnalysisReport/Index");
 		Thread.sleep(2000);
+		if (iterator==0) {
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//select[@title='Published']")));
+			WebElement cycleSelection= driver.findElement(By.xpath("//select[@title='Published']"));
+			cycleSelection.click();
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//option[@title='Published']")));
+			WebElement cycle= driver.findElement(By.xpath("//option[@title='Published']"));
+			cycle.click();
+			WebElement panelSelection= driver.findElement(By.xpath("//select[@title='Mediabase - Published Panel']"));
+			panelSelection.click();
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//option[@title='Mediabase - All Stations (U.S)']")));
+			WebElement panel= driver.findElement(By.xpath("//option[@title='Mediabase - All Stations (U.S)']"));
+			panel.click();
+		}
 		WebElement selection = driver.findElement(By.xpath("//div[@class='mb-txt-selection mb-input-selector']")); 
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", selection);
 		//Thread.sleep(2000);
 		//wait.until(ExpectedConditions.visibilityOf(button));
-
-
 
 		while (driver.findElements((By.xpath("//input[@class = 'mb-form-control']"))).size() == 0) {
 			/*for (WebElement button : buttons) {
@@ -120,15 +133,14 @@ public class MbSearch{
 					break;
 				}
 			}
-			
-			
 			JavascriptExecutor executor = (JavascriptExecutor)driver;
+			//
 			executor.executeScript("arguments[0].click();", button);
 			Thread.sleep(1000);
 		}
-		WebDriverWait wait = new WebDriverWait(driver, 1000);
-		Thread.sleep(1000);
+		wait.until(ExpectedConditions.presenceOfElementLocated((By.xpath("//input[@class='all-row-selector']"))));
 		List <WebElement> checkBoxes= driver.findElements(By.xpath("//input[@class='all-row-selector']"));
+		wait.until(ExpectedConditions.elementToBeClickable(checkBoxes.get(1)));
 		try {
 			checkBoxes.get(1).click();
 		}
@@ -202,7 +214,6 @@ public class MbSearch{
 					List<WebElement> songDiv = tabText.get(0).findElements(By.xpath("./child::*"));
 					String[] songAndArtist = songDiv.get(0).getText().split("-");
 					song = songAndArtist[1];
-					System.out.println("song is " + song);
 					
 					WebElement table = driver.findElement(By.xpath("//table[@class='ui-jqgrid-btable']"));
 					List <WebElement> tbody = table.findElements(By.xpath("./child::*"));
@@ -217,10 +228,10 @@ public class MbSearch{
 							}
 							
 							List <WebElement> tds = row.findElements(By.xpath("./child::*"));
-							if(tds.get(6).getText().equalsIgnoreCase("Triple A") || tds.get(5).getText().equalsIgnoreCase(">SiriusXM")) {
+							if(tds.get(5).getText().equalsIgnoreCase("Triple A") || tds.get(4).getText().equalsIgnoreCase(">SiriusXM")) {
 								station = tds.get(2).getText();
-								location = tds.get(5).getText();
-								spinCount = tds.get(11).getText();
+								location = tds.get(4).getText();
+								spinCount = tds.get(10).getText();
 								String [] spin = {station, location, currentArtist, song, spinCount};
 								System.out.println("Spin is: " + spin[0] + spin[1] + spin[3] + spin[4]);
 								allSpinData.add(spin);
@@ -233,7 +244,7 @@ public class MbSearch{
 							}
 							catch (org.openqa.selenium.NoSuchElementException  | ElementNotInteractableException e) {
 									driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
-									Thread.sleep(1000);
+									Thread.sleep(2000);
 									nextTab.get(0).click();
 						    }
 					}
@@ -358,7 +369,14 @@ public class MbSearch{
 			ArrayList <String> spins = new ArrayList<>();
 			
 			for (String[] spin : spinData) {
-					spins.add(currentArtist + "|" + spin[0] + "|" + spin[1] + "|" + spin[3] + "|" + spin[4]);
+					//{station, location, currentArtist, song, spinCount};
+					String station = spin[0];
+					String location = spin[1];
+					String artist = spin[2];
+					String song = spin[3];
+					String spinCount = spin[4];
+					
+					spins.add("Mediabase" + "|" + currentArtist + "|" + "-" + "|" + song + "|" + station + "|" + location + "|" + "-" + "|" + "-" + "|" + "-" + "|" + spinCount);
 			}
 			
 			spinsToPrint.put(currentArtist, spins);

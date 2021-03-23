@@ -125,7 +125,7 @@ public class SmSearch extends SpinSearch{
 			    		
 			    		for (WebElement artistName : artistNames) {
 				    		
-			    			String searchUrl = "http://submodern.fmqb.com/sub_artists.aspx?rid=";
+			    			String searchUrl = "http://etracking.deanemediasolutions.com/sub_artists.aspx?rid=";
 				    		
 				    		if(artistName.getText().equalsIgnoreCase(currentArtist) && artistName.getAttribute("href").contains(searchUrl)) {
 						    	artistName.click();
@@ -202,8 +202,7 @@ public class SmSearch extends SpinSearch{
 							spinCount = spin.get(i);
 						}
 					}
-					
-					spins.add(currentArtist + "|" + stationName + "|" + song + "|" + spinCount);
+					spins.add("SubModern" + "|" + currentArtist + "|" + "-" + "|" + song + "|" + stationName + "|" + "-" + "|" + "-" + "|" + "-" + "|" + "-" + "|" + spinCount);
 				}
 			}
 				spinsToPrint.put(currentArtist, spins);

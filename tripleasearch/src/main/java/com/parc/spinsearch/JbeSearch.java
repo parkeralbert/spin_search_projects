@@ -124,8 +124,7 @@ public class JbeSearch extends SpinSearch{
 							spinData.add(cell.getText());
 						}
 					}
-
-					
+					spinData.add("JBE");
 					allSpinData.add(spinData);
 				}
 			}
@@ -194,7 +193,7 @@ public class JbeSearch extends SpinSearch{
 							addData.add(cell.getText());
 						}
 					}
-					
+					addData.add("JBEadd");
 					allAddData.add(addData);
 				}
 			}
@@ -208,11 +207,12 @@ public class JbeSearch extends SpinSearch{
 			String song = null;
 			String location = null;
 			String spinCount = null;
+			String addOrSpin = null;
 			
 			ArrayList <String> spins = new ArrayList<>();
 			for (ArrayList<String> spin : spinData) {
 				
-				if (spin.size() == 4) {
+				if (spin.size() == 5) {
 					for (int i = 0; i< spin.size(); i++) {
 						if (i==0) {
 							stationName = spin.get(i);
@@ -226,11 +226,14 @@ public class JbeSearch extends SpinSearch{
 						if (i==3) {
 							spinCount = spin.get(i);
 						}
+						if (i==4) {
+							addOrSpin = spin.get(i);
+						}
 					}
 					
 					location = removeZip(location);
 					location = location.replace('-', ' ');
-					spins.add(currentArtist + "|" + stationName + "|" + location + "|" + song + "|" + spinCount);
+					spins.add(addOrSpin + "|" + currentArtist + "|" + "-" + "|" + song + "|" + stationName + "|" + location + "|" + "-" + "|" + "-" + "|" + "-" + "|" + spinCount);
 				}
 			}
 				spinsToPrint.put(currentArtist, spins);
