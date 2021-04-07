@@ -1,0 +1,54 @@
+Mediabase Spins:
+Mediabase|Arlo Parks|-|Black Dog|KCMP-FM|Minneapolis|-|-|-|6
+Mediabase|Arlo Parks|-|Black Dog|KEXP-FM|Seattle|-|-|-|1
+Mediabase|Arlo Parks|-|Black Dog|WPYA-F2|Birmingham|-|-|-|1
+Mediabase|Arlo Parks|-|Black Dog|Sirius XMU|>SiriusXM|-|-|-|16
+Mediabase|Arlo Parks|-|Caroline|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Caroline|WXPN-FM|Philadelphia|-|-|-|1
+Mediabase|Arlo Parks|-|Eugene|KCRW-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Eugene|Sirius XMU|>SiriusXM|-|-|-|4
+Mediabase|Arlo Parks|-|For Violet|KEXP-FM|Seattle|-|-|-|1
+Mediabase|Arlo Parks|-|Green Eyes|KCMP-FM|Minneapolis|-|-|-|8
+Mediabase|Arlo Parks|-|Green Eyes|KCSN-FM|Los Angeles|-|-|-|4
+Mediabase|Arlo Parks|-|Green Eyes|KEXP-FM|Seattle|-|-|-|4
+Mediabase|Arlo Parks|-|Green Eyes|KKXT-FM|Dallas|-|-|-|1
+Mediabase|Arlo Parks|-|Green Eyes|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Green Eyes|WFUV-FM|New York|-|-|-|1
+Mediabase|Arlo Parks|-|Green Eyes|WPYA-F2|Birmingham|-|-|-|1
+Mediabase|Arlo Parks|-|Green Eyes|WQKL-FM|Ann Arbor, MI|-|-|-|1
+Mediabase|Arlo Parks|-|Green Eyes|WXPN-FM|Philadelphia|-|-|-|2
+Mediabase|Arlo Parks|-|Green Eyes|Sirius XMU|>SiriusXM|-|-|-|26
+Mediabase|Arlo Parks|-|Hope|KCRW-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KEXP-FM|Seattle|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRVB-FM|Boise, ID|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KTHX-FM|Reno, NV|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLZ-FM|Portland, ME|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WMMM-FM|Madison, WI|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|WQKL-FM|Ann Arbor, MI|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WXRV-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WZEW-FM|Mobile|-|-|-|1
+Mediabase|Arlo Parks|-|Hurt|KCMP-FM|Minneapolis|-|-|-|7
+Mediabase|Arlo Parks|-|Hurt|KCRW-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hurt|KCSN-FM|Los Angeles|-|-|-|5
+Mediabase|Arlo Parks|-|Hurt|KEXP-FM|Seattle|-|-|-|4
+Mediabase|Arlo Parks|-|Hurt|KKXT-FM|Dallas|-|-|-|8
+Mediabase|Arlo Parks|-|Hurt|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hurt|KRVB-FM|Boise, ID|-|-|-|23
+Mediabase|Arlo Parks|-|Hurt|MCAA-FM|>Music Choice|-|-|-|46
+Mediabase|Arlo Parks|-|Hurt|Spectrum|>SiriusXM|-|-|-|24
+Mediabase|Arlo Parks|-|Hurt|WCLZ-FM|Portland, ME|-|-|-|19
+Mediabase|Arlo Parks|-|Hurt|WCOO-FM|Charleston, SC|-|-|-|4
+Mediabase|Arlo Parks|-|Hurt|WEHM-FM|Hamptons-Riverhe|-|-|-|23
+Mediabase|Arlo Parks|-|Hurt|WFUV-FM|New York|-|-|-|12
+Mediabase|Arlo Parks|-|Hurt|WPYA-F2|Birmingham|-|-|-|21
+Mediabase|Arlo Parks|-|Hurt|WQKL-FM|Ann Arbor, MI|-|-|-|17
+Mediabase|Arlo Parks|-|Hurt|WRLT-FM|Nashville|-|-|-|27
+Mediabase|Arlo Parks|-|Hurt|WRNR-FM|Baltimore|-|-|-|21
+Mediabase|Arlo Parks|-|Hurt|WXPK-FM|Hudson Valley, N|-|-|-|15
+Mediabase|Arlo Parks|-|Hurt|WXPN-FM|Philadelphia|-|-|-|8
+Mediabase|Arlo Parks|-|Hurt|WZEW-FM|Mobile|-|-|-|4
+Mediabase|Arlo Parks|-|Just Go|KCRW-FM|Los Angeles|-|-|-|5
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|3
+Mediabase|Arlo Parks|-|Too Good|KRCL-FM|Salt Lake City|-|-|-|1

@@ -58,7 +58,6 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 		return firstDayOfWeek;
 	}
 	
-	//reads last date on input file and stores it
 	public Date getLastDayOfWeek(String filePath) {
 		Date lastDayOfWeek = null;
 		String line = null;
@@ -102,8 +101,24 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 		}
 		return lastDayOfWeek;
 	}
+	
+	
+	
 
-	//reads and stores albums and singles to search
+	
+	public boolean isDayOnly(Date firstDayOfWeek, Date lastDayOfWeek){
+	    Date date = new Date();  
+		double difference_In_Time = date.getTime() - firstDayOfWeek.getTime();
+		double difference_In_Days = (difference_In_Time / (1000 * 60 * 60 * 24));
+		
+		if (difference_In_Days <1.0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 	public ArrayList<String> getArtistList(String artistInputPath){
 		String line = null;
 		ArrayList<String> artistNames = new ArrayList<String>(); 

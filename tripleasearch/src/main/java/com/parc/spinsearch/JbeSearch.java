@@ -17,7 +17,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class JbeSearch extends SpinSearch{
 	
 	
-	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
+	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput) throws Exception {
 		WebDriver driver = login(url);
 		
 		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath, driver);
@@ -25,7 +25,7 @@ public class JbeSearch extends SpinSearch{
 		
 		outputSpinsByArtist(outputPath, spinsByArtist, append);
 		outputAddsByArtist(outputPath, addsByArtist);
-		
+		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}
 	
 	public Map<String, ArrayList <String>> getSpins(String url, ArrayList<String> artistInfo, String filePath, String inputPath, WebDriver driver) throws Exception {

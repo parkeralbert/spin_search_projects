@@ -22,12 +22,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class StSearch extends SpinSearch{
 	
 	
-	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
-		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath);
+	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput, Date firstDayOfWeek, Date lastDayOfWeek) throws Exception {
+		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath, firstDayOfWeek, lastDayOfWeek);
 		outputSpinsByArtist(outputPath, spinsByArtist, append);
+		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}
 	
-	public Map<String, ArrayList <String>> getSpins(String url, ArrayList <String> artistInfo, String outputPath, String inputPath) throws Exception {
+	public Map<String, ArrayList <String>> getSpins(String url, ArrayList <String> artistInfo, String outputPath, String inputPath, Date firstDayOfWeek, Date lastDayOfWeek) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
 		
 		
@@ -35,7 +36,7 @@ public class StSearch extends SpinSearch{
 		
 	    for (String currentArtist : artistInfo) {
 					ArrayList<ArrayList <String>> spinData = getSpinData(currentArtist, driver, url);
-					addSpin(spinData, currentArtist, spinsToPrint);
+					addSpin(spinData, currentArtist, spinsToPrint, firstDayOfWeek,  lastDayOfWeek);
 	    } 
 		driver.quit();
 	    
@@ -53,20 +54,37 @@ public class StSearch extends SpinSearch{
         return newString.toString(); 
     } 
 	
-	public String addDateToUrl (String date, String url) {
+	public String addDateToUrl (String date, String url, boolean dayOnly) {
 		String [] segments = date.split("/");
 		String secondHalf = null;
 		for (int i = 0; i<segments.length; i++) {
 			if(i == 0) {
-				url = insertString(url, segments[i], 46);
+				if (dayOnly) {
+					url = insertString(url, segments[i], 45);
+				}
+				else {
+					url = insertString(url, segments[i], 46);
+				}
 			}
 			if(i == 1) {
-				secondHalf = url.substring(53);
-				url = url.substring(0, 53) + segments[i];
+				if (dayOnly) {
+					secondHalf = url.substring(52);
+					url = url.substring(0, 52) + segments[i];
+				}
+				else {
+					secondHalf = url.substring(53);
+					url = url.substring(0, 53) + segments[i];
+				}
 			}
 			if(i == 2) {
-				secondHalf = insertString(secondHalf, segments[i], 5);
-				url = url + secondHalf;
+				if (dayOnly) {
+					secondHalf = insertString(secondHalf, segments[i], 4);
+					url = url + secondHalf;
+				}
+				else {
+					secondHalf = insertString(secondHalf, segments[i], 5);
+					url = url + secondHalf;
+				}
 			}
 		}
 		System.out.println("url is: " + url);
@@ -83,38 +101,13 @@ public class StSearch extends SpinSearch{
 		return url;
 	}
 	
-	public String getDateForUrl (String filePath) {
-		String date = null;
-		String line = null;
-		try 
-		{
-			BufferedReader reader = new BufferedReader(new FileReader(filePath));
-			while ((line = reader.readLine()) != null && date == null)
-			{
-				date = parseUrlDate(line);
-			}
-			reader.close();
-		}
-		catch (Exception e)
-		{
-			System.err.println("Error: " + e);
-		}
-
-		System.out.println("URL date is: " + date);
-		return date; 
-	}
-	
-	public static String parseUrlDate(String line) {
+	public String getDateForUrl (Date date) {
 		String urlDate = null;
-		if(line.indexOf("Last Day of Week:") != -1) {
-			if (line.contains("\"")) {
-				line = line.replaceAll("\"", "");
-			}
-			urlDate = line.trim().substring(18);
-		}
-		System.out.println(urlDate);
+		urlDate = new SimpleDateFormat("MMM/dd/yyyy").format(date);
+		System.out.println("Url date is: " + urlDate);
 		return urlDate;
 	}
+	
 	
 	public  ArrayList<ArrayList <String>> getSpinData(String currentArtist, WebDriver driver, String url) {
 		//ArrayList <String> currentArtist, String inputPath, 
@@ -156,7 +149,7 @@ public class StSearch extends SpinSearch{
 		return allSpinData;
 	}
 	
-	public void addSpin(ArrayList <ArrayList<String>> spinData, String currentArtist, Map<String, ArrayList <String>> spinsToPrint) throws Exception   {
+	public void addSpin(ArrayList <ArrayList<String>> spinData, String currentArtist, Map<String, ArrayList <String>> spinsToPrint, Date firstDayOfWeek, Date lastDayOfWeek) throws Exception   {
 		if(spinData != null) {
 			String stationName = null;
 			String song = null;
@@ -168,7 +161,6 @@ public class StSearch extends SpinSearch{
 			
 			ArrayList <String> spins = new ArrayList<>();
 			for (ArrayList<String> spin : spinData) {
-				
 				if (spin.size() >= 3 && !spin.get(1).contains("Station")) {
 					for (int i = 0; i< spin.size(); i++) {
 						if (i==0) {
@@ -205,7 +197,7 @@ public class StSearch extends SpinSearch{
 						}
 					}
 					
-					if (artist.equalsIgnoreCase(currentArtist)) {
+					if (artist.equalsIgnoreCase(currentArtist) && isDateInRange(firstDayOfWeek, lastDayOfWeek, spinDate)) {
 						spins.add("Spinitron" + "|" + artist + "|" + album + "|" + song + "|" +  stationName + "|" + "-" + "|" + "-" + "|" + date + "|" + "-");
 						System.out.println("Spin for " + currentArtist + ": "+ spin);
 					}
@@ -242,7 +234,6 @@ public class StSearch extends SpinSearch{
 			writer = new BufferedWriter(new FileWriter(filePath));
 		}
 
-		writer.write("Spinitron Spins: ");
 		writer.newLine();
 		writer.close();
 		

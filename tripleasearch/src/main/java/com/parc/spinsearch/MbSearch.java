@@ -32,13 +32,13 @@ public class MbSearch{
 		
 	}
 	
-	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append) throws Exception {
+	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput) throws Exception {
 		WebDriver driver = login(url);
 		
 		Map<String, ArrayList <String>> spinsByArtist = getSpins(artistInfo, outputPath, inputPath, driver);
 		
 		outputSpinsByArtist(outputPath, spinsByArtist, append);
-		
+		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}
 	
 	public WebDriver login(String url) {
@@ -139,16 +139,18 @@ public class MbSearch{
 			Thread.sleep(1000);
 		}
 		wait.until(ExpectedConditions.presenceOfElementLocated((By.xpath("//input[@class='all-row-selector']"))));
-		List <WebElement> checkBoxes= driver.findElements(By.xpath("//input[@class='all-row-selector']"));
-		wait.until(ExpectedConditions.elementToBeClickable(checkBoxes.get(1)));
-		try {
-			checkBoxes.get(1).click();
+		
+		for (int i = 0; i<200; i++) {
+			try {
+				List <WebElement> checkBoxes= driver.findElements(By.xpath("//input[@class='all-row-selector']"));
+				checkBoxes.get(1).click();
+				break;
+			}
+			catch(org.openqa.selenium.StaleElementReferenceException r){
+				Thread.sleep(200);
+			}
 		}
-		catch(Exception r){
-			Thread.sleep(1000);
-			checkBoxes= driver.findElements(By.xpath("//input[@class='all-row-selector']"));
-			checkBoxes.get(1).click();
-		}
+
 		driver.findElement(By.xpath("//button[@class='mb-btn-remove']")).click();
 		driver.findElement(By.xpath("//input[@class='mb-form-control']")).sendKeys(currentArtist);
 
@@ -393,7 +395,6 @@ public class MbSearch{
 			 writer = new BufferedWriter(new FileWriter(filePath));
 		}
 		
-		writer.write("Mediabase Spins:");
 		writer.newLine();
 		writer.close();
 		for (String currentArtist : spinsByArtist.keySet()) {

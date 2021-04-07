@@ -17,6 +17,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SmSearch extends SpinSearch{
 	
+	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput) throws Exception {
+		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath);
+		outputSpinsByArtist(outputPath, spinsByArtist, append);
+		outputSpinsByArtist(allOutput, spinsByArtist, true);
+	}
 	
 	public Map<String, ArrayList <String>> getSpins(String url, ArrayList <String> artistInfo, String outputPath, String inputPath) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
@@ -229,7 +234,6 @@ public class SmSearch extends SpinSearch{
 			 writer = new BufferedWriter(new FileWriter(filePath));
 		}
 
-		writer.write("SubModern Spins: ");
 		writer.newLine();
 		writer.close();
 		

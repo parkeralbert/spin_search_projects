@@ -1,61 +1,63 @@
- JBE Spins:
-JBE|Django Django|-|*Album Only*|KCMP|Minneapolis / Rochester, MN|-|-|-|9
-JBE|Django Django|-|Glowing in the Dark|KBAC|Santa Fe/Albuquerque, NM|-|-|-|8
-JBE|Django Django|-|Glowing in the Dark|WBJB|Lincroft NJ|-|-|-|4
-JBE|Django Django|-|Glowing in the Dark|WYEP|Pittsburgh, PA|-|-|-|4
-JBE|Django Django|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|3
-JBE|Middle Kids|-|Questions|KCLC|St. Charles, MO|-|-|-|18
-JBE|Middle Kids|-|Questions|WBJB|Lincroft NJ|-|-|-|18
-JBE|Middle Kids|-|Questions|Indie 102.3|Denver|-|-|-|16
-JBE|Middle Kids|-|*Album Only*|KCMP|Minneapolis / Rochester, MN|-|-|-|15
-JBE|Middle Kids|-|Questions|WFUV|New York, NY|-|-|-|14
-JBE|Middle Kids|-|Questions|WUSM|Hattiesburg, MS|-|-|-|10
-JBE|Middle Kids|-|*Album Only*|WFIT-FM|Melbourne, FL|-|-|-|9
-JBE|Middle Kids|-|Questions|KJAC|Greeley, CO|-|-|-|8
-JBE|Middle Kids|-|R U 4 Me?|WBSD|Burlington, WI|-|-|-|7
-JBE|Middle Kids|-|Questions|WSGE|Dallas, NC|-|-|-|6
-JBE|Middle Kids|-|R U 4 Me?|WSGE|Dallas, NC|-|-|-|6
-JBE|Middle Kids|-|Questions|WYEP|Pittsburgh, PA|-|-|-|6
-JBE|Middle Kids|-|Questions|WXPN|Philadelphia, PA|-|-|-|4
-JBE|Middle Kids|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|3
-JBE|Middle Kids|-|Questions|KNBA|Anchorage, AK|-|-|-|3
-JBE|Middle Kids|-|Questions|KRCL|Salt Lake City, UT|-|-|-|2
-JBE|Middle Kids|-|R U 4 Me?|WFPK|Louisville, KY|-|-|-|0
-JBE|Slaughter Beach, Dog|-|Are You There|WNRN|Charlottesville, VA|-|-|-|7
-JBE|Slaughter Beach, Dog|-|Fair Shot|WXPN|Philadelphia, PA|-|-|-|2
-JBE|Squid|-|*Album Only*|KCMP|Minneapolis / Rochester, MN|-|-|-|8
-JBE|Squid|-|Narrator|KJAC|Greeley, CO|-|-|-|8
-JBE|Miss Grit|-|Grow Up To|KCMP|Minneapolis / Rochester, MN|-|-|-|9
-JBE|Lael Neale|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|6
-JBE|Lael Neale|-|*Album Only*|WFHB|Bloomington, IN|-|-|-|6
-JBE|Lael Neale|-|*Album Only*|WFIT-FM|Melbourne, FL|-|-|-|3
-JBE|Lael Neale|-|*Album Only*|Acoustic Café|Ann Arbor, MI|-|-|-|2
-JBE|Cloud Nothings|-|Nothing Without You|WUSM|Hattiesburg, MS|-|-|-|9
-JBE|Cloud Nothings|-|Nothing Without You|WBJB|Lincroft NJ|-|-|-|6
-JBE|Molly Burch|-|Emotion|Indie 102.3|Denver|-|-|-|9
-JBE|Molly Burch|-|Emotion|WFIT-FM|Melbourne, FL|-|-|-|1
-JBE|Arlo Parks|-|Hurt|Indie 102.3|Denver|-|-|-|31
-JBE|Arlo Parks|-|*Album Only*|WUSM|Hattiesburg, MS|-|-|-|24
-JBE|Arlo Parks|-|*Album Only*|KCMP|Minneapolis / Rochester, MN|-|-|-|22
-JBE|Arlo Parks|-|Hurt|WEHM|Watermill, NY|-|-|-|20
-JBE|Arlo Parks|-|Hurt|WBJB|Lincroft NJ|-|-|-|19
+JBE Spins:
+JBE|Arlo Parks|-|Hurt|Music Choice|New York, NY|-|-|-|52
+JBE|Arlo Parks|-|Hurt|Indie 102.3|Denver|-|-|-|30
+JBE|Arlo Parks|-|Hope|WNXP|Nashville, TN|-|-|-|29
+JBE|Arlo Parks|-|Hurt|WRLT|Nashville, TN|-|-|-|28
+JBE|Arlo Parks|-|*Album Only*|KCMP|Minneapolis / Rochester, MN|-|-|-|24
+JBE|Arlo Parks|-|Hurt|WEHM|Watermill, NY|-|-|-|24
+JBE|Arlo Parks|-|Hurt|KRVB|Boise, ID|-|-|-|23
+JBE|Arlo Parks|-|Hurt|WAPS|Akron, OH|-|-|-|22
+JBE|Arlo Parks|-|Hurt|WBJB|Lincroft NJ|-|-|-|22
+JBE|Arlo Parks|-|*Album Only*|WUSM|Hattiesburg, MS|-|-|-|21
+JBE|Arlo Parks|-|Hurt|WPYA|Hoover|-|-|-|19
+JBE|Arlo Parks|-|Hope|WYMS|Milwaukee, WI|-|-|-|19
+JBE|Arlo Parks|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|18
+JBE|Arlo Parks|-|Hurt|KRML|Carmel, CA|-|-|-|18
+JBE|Arlo Parks|-|Hurt|WDST|Woodstock, NY|-|-|-|18
+JBE|Arlo Parks|-|Too Good|WFPK|Louisville, KY|-|-|-|17
+JBE|Arlo Parks|-|Hurt|WTYD The Tide|Williamsburg, VA|-|-|-|17
+JBE|Arlo Parks|-|Hurt|WUIN|Wilmington, NC|-|-|-|17
+JBE|Arlo Parks|-|Hope|KROK|Deridder, LA|-|-|-|16
+JBE|Arlo Parks|-|Hurt|KJAC|Greeley, CO|-|-|-|15
+JBE|Arlo Parks|-|Hurt|KTBG|Kansas City, MO|-|-|-|15
+JBE|Arlo Parks|-|Hurt|Sun Radio|Austin|-|-|-|15
+JBE|Arlo Parks|-|Hurt|WNRN|Charlottesville, VA|-|-|-|15
+JBE|Arlo Parks|-|Hurt|WVOD-99.1 the Sound|Wanchese, NC|-|-|-|15
 JBE|Arlo Parks|-|Hurt|KCLC|St. Charles, MO|-|-|-|14
-JBE|Arlo Parks|-|Hurt|WNRN|Charlottesville, VA|-|-|-|14
+JBE|Arlo Parks|-|Hurt|KSLU|Hammond, LA|-|-|-|14
+JBE|Arlo Parks|-|Hurt|WOXL HD2|Asheville, NC|-|-|-|14
+JBE|Arlo Parks|-|*Album Only*|KEXP|Seattle, WA|-|-|-|13
+JBE|Arlo Parks|-|*Album Only*|KUTX|Austin, TX|-|-|-|13
+JBE|Arlo Parks|-|*Album Only*|WMNF|Tampa, FL|-|-|-|13
+JBE|Arlo Parks|-|Hurt|WUNC||-|-|-|13
+JBE|Arlo Parks|-|Hurt|WXPK|White Plains, NY|-|-|-|13
 JBE|Arlo Parks|-|Hurt|WMWV|Portland, ME|-|-|-|12
-JBE|Arlo Parks|-|Hurt|WEXT|Troy, NY|-|-|-|11
+JBE|Arlo Parks|-|Hurt|WEXT|Troy, NY|-|-|-|10
+JBE|Arlo Parks|-|Hurt|WSGE|Dallas, NC|-|-|-|10
+JBE|Arlo Parks|-|Hurt|WYEP|Pittsburgh, PA|-|-|-|10
+JBE|Arlo Parks|-|*Album Only*|WEVL|Memphis, TN|-|-|-|9
 JBE|Arlo Parks|-|*Album Only*|WFIT-FM|Melbourne, FL|-|-|-|9
-JBE|Arlo Parks|-|Hurt|WSGE|Dallas, NC|-|-|-|9
-JBE|Arlo Parks|-|Hurt|WXPN|Philadelphia, PA|-|-|-|9
-JBE|Arlo Parks|-|Hurt|WYEP|Pittsburgh, PA|-|-|-|8
-JBE|Arlo Parks|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|6
-JBE|Arlo Parks|-|*Album Only*|WFHB|Bloomington, IN|-|-|-|6
+JBE|Arlo Parks|-|Hurt|KXT|Dallas, TX|-|-|-|8
+JBE|Arlo Parks|-|Hurt|WRSI|Northampton, MA|-|-|-|8
+JBE|Arlo Parks|-|*Album Only*|KDNK|Carbondale, CO|-|-|-|7
+JBE|Arlo Parks|-|Hurt|WXPN|Philadelphia, PA|-|-|-|7
+JBE|Arlo Parks|-|Hurt|WCNR|Charlottesville, VA|-|-|-|6
+JBE|Arlo Parks|-|Hurt|KCSN|Northridge, CA|-|-|-|5
+JBE|Arlo Parks|-|*Album Only*|XMLF|SiriusXM/The Loft|-|-|-|5
+JBE|Arlo Parks|-|Green Eyes|KCSN|Northridge, CA|-|-|-|4
 JBE|Arlo Parks|-|Hurt|KNBA|Anchorage, AK|-|-|-|4
-JBE|Arlo Parks|-|Hurt|KRCL|Salt Lake City, UT|-|-|-|4
-JBE|Arlo Parks|-|*Album Only*|Acoustic Café|Ann Arbor, MI|-|-|-|1
-JBE|Arlo Parks|-|Too Good|WFPK|Louisville, KY|-|-|-|0
-JBE|Katy Kirby|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|4
+JBE|Arlo Parks|-|*Album Only*|WYCE|Grand Rapids, MI|-|-|-|4
+JBE|Arlo Parks|-|Hurt|WZEW|Mobile, AL|-|-|-|4
+JBE|Arlo Parks|-|Just Go|KCSN|Northridge, CA|-|-|-|3
+JBE|Arlo Parks|-|Hurt|KRCL|Salt Lake City, UT|-|-|-|3
+JBE|Arlo Parks|-|*Album Only*|KSUT|Durango, CO|-|-|-|3
+JBE|Arlo Parks|-|Hurt|KUWR|Laramie, WY|-|-|-|3
+JBE|Arlo Parks|-|*Album Only*|KXCI|Tucson, AZ|-|-|-|3
+JBE|Arlo Parks|-|*Album Only*|WCBE|Columbus, OH|-|-|-|3
+JBE|Arlo Parks|-|*Album Only*|Acoustic Café|Ann Arbor, MI|-|-|-|2
+JBE|Arlo Parks|-|Hope|KRCL|Salt Lake City, UT|-|-|-|2
+JBE|Arlo Parks|-|*Album Only*|WHRV|Norfolk, VA|-|-|-|2
+JBE|Arlo Parks|-|*Album Only*|WNCW|Charlotte/Asheville, NC|-|-|-|2
+JBE|Arlo Parks|-|*Album Only*|WFHB|Bloomington, IN|-|-|-|0
 JBE Adds:
-JBEadd|Lael Neale|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|6
-JBEadd|Arlo Parks|-|*Album Only*|Acoustic Café|Ann Arbor, MI|-|-|-|1
-JBEadd|Arlo Parks|-|Too Good|WFPK|Louisville, KY|-|-|-|0
-JBEadd|Katy Kirby|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|4
+JBEadd|Arlo Parks|-|*Album Only*|WNCW|Charlotte/Asheville, NC|-|-|-|2
