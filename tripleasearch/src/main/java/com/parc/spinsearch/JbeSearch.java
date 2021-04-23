@@ -34,7 +34,7 @@ public class JbeSearch extends SpinSearch{
 		
 		driver.findElement(By.xpath("//a[@href='listFullTAnonComAlbums.aspx?fid=8']")).click();
 		
-	    for (String currentArtist : artistInfo) {
+	    for (String currentArtist : artistInfo) {  
 				ArrayList<ArrayList <String>> spinData = getSpinData(currentArtist, url, driver, inputPath);
 				addSpin(spinData, currentArtist, spinsToPrint);
 	    }
