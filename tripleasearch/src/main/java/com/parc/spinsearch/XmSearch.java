@@ -153,9 +153,12 @@ public class XmSearch extends SpinSearch{
 			SimpleDateFormat parser = new SimpleDateFormat("MM/dd/yyyy, h:mm a");
 			Date spinDate = null;
 			String date = "";
+			String spinToAdd;
+			boolean alreadyAdded;
 			
 			ArrayList <String> spins = new ArrayList<>();
 			for (ArrayList<String> spin : spinData) {
+				alreadyAdded = false;
 				spinDate = parser.parse(spin.get(2));
 				SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd|h:mm a");
 				date = formatter.format(spinDate);
@@ -163,9 +166,18 @@ public class XmSearch extends SpinSearch{
 				artist = spin.get(1);
 				show = spin.get(3);
 					
-				if (artist.equalsIgnoreCase(currentArtist) && isDateInRange(firstDayOfWeek, lastDayOfWeek, spinDate)) {
-					spins.add("SiriusXM" + "|" + artist + "|" + album + "|" + song + "|" +  "SiriusXM" + "|" + "-" + "|" + show + "|" + date + "|" + "-");
-					System.out.println("Spin for " + currentArtist + ": "+ spin);
+				if (isDateInRange(firstDayOfWeek, lastDayOfWeek, spinDate)) {
+					spinToAdd = "SiriusXM" + "|" + artist + "|" + album + "|" + song + "|" +  "SiriusXM" + "|" + "-" + "|" + show + "|" + date + "|" + "-";
+					for (String addedSpin : spins) {
+						if (addedSpin.equalsIgnoreCase(spinToAdd)) {
+							alreadyAdded = true;
+							break;
+						}
+					}
+					if (!alreadyAdded) {
+						spins.add(spinToAdd);
+						System.out.println("Spin for " + currentArtist + ": "+ spinToAdd);
+					}
 				}
 
 			}

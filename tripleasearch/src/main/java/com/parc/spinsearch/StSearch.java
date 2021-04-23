@@ -158,10 +158,13 @@ public class StSearch extends SpinSearch{
 			SimpleDateFormat formatter = new SimpleDateFormat("M/d/yy, h:mm a");
 			Date spinDate = null;
 			String date = "";
+			String spinToAdd;
+			boolean alreadyAdded;
 			
 			ArrayList <String> spins = new ArrayList<>();
 			for (ArrayList<String> spin : spinData) {
 				if (spin.size() >= 3 && !spin.get(1).contains("Station")) {
+					alreadyAdded = false;
 					for (int i = 0; i< spin.size(); i++) {
 						if (i==0) {
 							spinDate = formatter.parse(spin.get(i).replaceAll("\\*", ""));
@@ -198,8 +201,17 @@ public class StSearch extends SpinSearch{
 					}
 					
 					if (artist.equalsIgnoreCase(currentArtist) && isDateInRange(firstDayOfWeek, lastDayOfWeek, spinDate)) {
-						spins.add("Spinitron" + "|" + artist + "|" + album + "|" + song + "|" +  stationName + "|" + "-" + "|" + "-" + "|" + date + "|" + "-");
-						System.out.println("Spin for " + currentArtist + ": "+ spin);
+						spinToAdd = "Spinitron" + "|" + artist + "|" + album + "|" + song + "|" +  stationName + "|" + "-" + "|" + "-" + "|" + date + "|" + "-";
+						for (String addedSpin : spins) {
+							if (addedSpin.equalsIgnoreCase(spinToAdd)) {
+								alreadyAdded = true;
+								break;
+							}
+						}
+						if (!alreadyAdded) {
+							spins.add(spinToAdd);
+							System.out.println("Spin for " + currentArtist + ": "+ spinToAdd);
+						}
 					}
 
 				}
