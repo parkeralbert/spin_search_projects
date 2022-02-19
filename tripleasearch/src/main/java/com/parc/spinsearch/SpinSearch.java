@@ -145,15 +145,51 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
         
 	}
 	
+	public Boolean setExactBoolean(String artistInputPath){
+		String line = null;
+		boolean exact = false;
+		ArrayList<String> artistNames = new ArrayList<String>(); 
+		
+		try
+		{
+			BufferedReader artistReader = new BufferedReader(new FileReader(artistInputPath));
+			
+			while ((line = artistReader.readLine()) != null )
+			{
+					exact = setBoolean(line);
+				
+			}
+			artistReader.close();
+			
+		}
+		catch (Exception e)
+		{
+			System.err.println("Error: " + e);
+			e.printStackTrace();
+		}
+		
+		return exact;
+        
+	}
+	
+	
 	public void addArtistNames(String line, ArrayList<String> artistInfo) {
 		
-		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:") && !line.contains("https://")) {
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:") && !line.contains("https://") && (!line.equalsIgnoreCase("rolling") && !line.equalsIgnoreCase("published"))) {
 			if (line.indexOf("*") == 0) {
 				line = line.replace("*", "");
 			}
 			artistInfo.add(line.trim());
 		}
 		
+	}
+	
+	public Boolean setBoolean (String line) {
+		boolean exact = false;
+		if (line.trim().equalsIgnoreCase("exact_match")) {
+			exact = true;
+		}
+		return exact;
 	}
 	
 	

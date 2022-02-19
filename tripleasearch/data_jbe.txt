@@ -1,63 +1,132 @@
 JBE Spins:
-JBE|Arlo Parks|-|Hurt|Music Choice|New York, NY|-|-|-|52
-JBE|Arlo Parks|-|Hurt|Indie 102.3|Denver|-|-|-|30
-JBE|Arlo Parks|-|Hope|WNXP|Nashville, TN|-|-|-|29
-JBE|Arlo Parks|-|Hurt|WRLT|Nashville, TN|-|-|-|28
-JBE|Arlo Parks|-|*Album Only*|KCMP|Minneapolis / Rochester, MN|-|-|-|24
-JBE|Arlo Parks|-|Hurt|WEHM|Watermill, NY|-|-|-|24
-JBE|Arlo Parks|-|Hurt|KRVB|Boise, ID|-|-|-|23
-JBE|Arlo Parks|-|Hurt|WAPS|Akron, OH|-|-|-|22
-JBE|Arlo Parks|-|Hurt|WBJB|Lincroft NJ|-|-|-|22
-JBE|Arlo Parks|-|*Album Only*|WUSM|Hattiesburg, MS|-|-|-|21
-JBE|Arlo Parks|-|Hurt|WPYA|Hoover|-|-|-|19
-JBE|Arlo Parks|-|Hope|WYMS|Milwaukee, WI|-|-|-|19
-JBE|Arlo Parks|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|18
-JBE|Arlo Parks|-|Hurt|KRML|Carmel, CA|-|-|-|18
-JBE|Arlo Parks|-|Hurt|WDST|Woodstock, NY|-|-|-|18
-JBE|Arlo Parks|-|Too Good|WFPK|Louisville, KY|-|-|-|17
-JBE|Arlo Parks|-|Hurt|WTYD The Tide|Williamsburg, VA|-|-|-|17
-JBE|Arlo Parks|-|Hurt|WUIN|Wilmington, NC|-|-|-|17
-JBE|Arlo Parks|-|Hope|KROK|Deridder, LA|-|-|-|16
-JBE|Arlo Parks|-|Hurt|KJAC|Greeley, CO|-|-|-|15
-JBE|Arlo Parks|-|Hurt|KTBG|Kansas City, MO|-|-|-|15
-JBE|Arlo Parks|-|Hurt|Sun Radio|Austin|-|-|-|15
-JBE|Arlo Parks|-|Hurt|WNRN|Charlottesville, VA|-|-|-|15
-JBE|Arlo Parks|-|Hurt|WVOD-99.1 the Sound|Wanchese, NC|-|-|-|15
-JBE|Arlo Parks|-|Hurt|KCLC|St. Charles, MO|-|-|-|14
-JBE|Arlo Parks|-|Hurt|KSLU|Hammond, LA|-|-|-|14
-JBE|Arlo Parks|-|Hurt|WOXL HD2|Asheville, NC|-|-|-|14
-JBE|Arlo Parks|-|*Album Only*|KEXP|Seattle, WA|-|-|-|13
-JBE|Arlo Parks|-|*Album Only*|KUTX|Austin, TX|-|-|-|13
-JBE|Arlo Parks|-|*Album Only*|WMNF|Tampa, FL|-|-|-|13
-JBE|Arlo Parks|-|Hurt|WUNC||-|-|-|13
-JBE|Arlo Parks|-|Hurt|WXPK|White Plains, NY|-|-|-|13
-JBE|Arlo Parks|-|Hurt|WMWV|Portland, ME|-|-|-|12
-JBE|Arlo Parks|-|Hurt|WEXT|Troy, NY|-|-|-|10
-JBE|Arlo Parks|-|Hurt|WSGE|Dallas, NC|-|-|-|10
-JBE|Arlo Parks|-|Hurt|WYEP|Pittsburgh, PA|-|-|-|10
-JBE|Arlo Parks|-|*Album Only*|WEVL|Memphis, TN|-|-|-|9
-JBE|Arlo Parks|-|*Album Only*|WFIT-FM|Melbourne, FL|-|-|-|9
-JBE|Arlo Parks|-|Hurt|KXT|Dallas, TX|-|-|-|8
-JBE|Arlo Parks|-|Hurt|WRSI|Northampton, MA|-|-|-|8
-JBE|Arlo Parks|-|*Album Only*|KDNK|Carbondale, CO|-|-|-|7
-JBE|Arlo Parks|-|Hurt|WXPN|Philadelphia, PA|-|-|-|7
-JBE|Arlo Parks|-|Hurt|WCNR|Charlottesville, VA|-|-|-|6
-JBE|Arlo Parks|-|Hurt|KCSN|Northridge, CA|-|-|-|5
-JBE|Arlo Parks|-|*Album Only*|XMLF|SiriusXM/The Loft|-|-|-|5
-JBE|Arlo Parks|-|Green Eyes|KCSN|Northridge, CA|-|-|-|4
-JBE|Arlo Parks|-|Hurt|KNBA|Anchorage, AK|-|-|-|4
-JBE|Arlo Parks|-|*Album Only*|WYCE|Grand Rapids, MI|-|-|-|4
-JBE|Arlo Parks|-|Hurt|WZEW|Mobile, AL|-|-|-|4
-JBE|Arlo Parks|-|Just Go|KCSN|Northridge, CA|-|-|-|3
-JBE|Arlo Parks|-|Hurt|KRCL|Salt Lake City, UT|-|-|-|3
-JBE|Arlo Parks|-|*Album Only*|KSUT|Durango, CO|-|-|-|3
-JBE|Arlo Parks|-|Hurt|KUWR|Laramie, WY|-|-|-|3
-JBE|Arlo Parks|-|*Album Only*|KXCI|Tucson, AZ|-|-|-|3
-JBE|Arlo Parks|-|*Album Only*|WCBE|Columbus, OH|-|-|-|3
-JBE|Arlo Parks|-|*Album Only*|Acoustic Café|Ann Arbor, MI|-|-|-|2
-JBE|Arlo Parks|-|Hope|KRCL|Salt Lake City, UT|-|-|-|2
-JBE|Arlo Parks|-|*Album Only*|WHRV|Norfolk, VA|-|-|-|2
-JBE|Arlo Parks|-|*Album Only*|WNCW|Charlotte/Asheville, NC|-|-|-|2
-JBE|Arlo Parks|-|*Album Only*|WFHB|Bloomington, IN|-|-|-|0
+JBE|Lucy Dacus|-|*Album Only*|WUSM|Hattiesburg, MS|-|-|-|16
+JBE|Lucy Dacus|-|Brando|WLKR|Milan|-|-|-|8
+JBE|Lucy Dacus|-|Brando|KRML|Carmel, CA|-|-|-|3
+JBE|Lucy Dacus|-|Hot & Heavy|KRML|Carmel, CA|-|-|-|3
+JBE|Lucy Dacus|-|*Album Only*|WYCE|Grand Rapids, MI|-|-|-|3
+JBE|Lucy Dacus|-|VBS|KRCL|Salt Lake City, UT|-|-|-|2
+JBE|Lucy Dacus|-|*Album Only*|KUTX|Austin, TX|-|-|-|2
+JBE|Lucy Dacus|-|*Album Only*|WDVX|Knoxville, TN|-|-|-|2
+JBE|Lucy Dacus|-|Brando|WEHM|Watermill, NY|-|-|-|1
+JBE|Lucy Dacus|-|Brando|KINK|Portland, OR|-|-|-|0
+JBE|Lucy Dacus|-|Brando|KUWR|Laramie, WY|-|-|-|0
+JBE|Lucy Dacus|-|*Album Only*|WYSO|Dayton, OH|-|-|-|0
+JBE|Snail Mail|-|Valentine|Indie 102.3|Denver|-|-|-|26
+JBE|Snail Mail|-|Valentine|KROK|Deridder, LA|-|-|-|21
+JBE|Snail Mail|-|Valentine|WUNC|Chapel Hill, NC|-|-|-|21
+JBE|Snail Mail|-|Valentine|WYMS|Milwaukee, WI|-|-|-|20
+JBE|Snail Mail|-|Valentine|WBJB|Lincroft NJ|-|-|-|17
+JBE|Snail Mail|-|Valentine|WNRN|Charlottesville, VA|-|-|-|16
+JBE|Snail Mail|-|Valentine|WTMD|Towson, MD|-|-|-|16
+JBE|Snail Mail|-|Valentine|WXRV-FM|Haverhill, MA|-|-|-|15
+JBE|Snail Mail|-|Valentine|KCMP|Minneapolis / Rochester, MN|-|-|-|13
+JBE|Snail Mail|-|Valentine|KRML|Carmel, CA|-|-|-|13
+JBE|Snail Mail|-|Valentine|KUTX|Austin, TX|-|-|-|13
+JBE|Snail Mail|-|Valentine|WDST|Woodstock, NY|-|-|-|13
+JBE|Snail Mail|-|Valentine|WNCS|Montpelier, VT|-|-|-|13
+JBE|Snail Mail|-|Valentine|WFPK|Louisville, KY|-|-|-|12
+JBE|Snail Mail|-|Valentine|WLKR|Milan|-|-|-|12
+JBE|Snail Mail|-|Valentine|WPYA|Hoover|-|-|-|12
+JBE|Snail Mail|-|Valentine|KXT|Dallas, TX|-|-|-|11
+JBE|Snail Mail|-|Valentine|KCLC|St. Charles, MO|-|-|-|10
+JBE|Snail Mail|-|Valentine|WCNR|Charlottesville, VA|-|-|-|10
+JBE|Snail Mail|-|*Album Only*|WYCE|Grand Rapids, MI|-|-|-|9
+JBE|Snail Mail|-|Valentine|WZEW|Mobile, AL|-|-|-|9
+JBE|Snail Mail|-|Valentine|WRLT|Nashville, TN|-|-|-|8
+JBE|Snail Mail|-|Valentine|KBAC|Santa Fe/Albuquerque, NM|-|-|-|7
+JBE|Snail Mail|-|Valentine|KVNA|Cottonwood|-|-|-|7
+JBE|Snail Mail|-|Valentine|WCOO|Charleston,SC|-|-|-|7
+JBE|Snail Mail|-|Valentine|WERS|Boston, MA|-|-|-|7
+JBE|Snail Mail|-|*Album Only*|WFIT-FM|Melbourne, FL|-|-|-|7
+JBE|Snail Mail|-|Valentine|WYEP|Pittsburgh, PA|-|-|-|7
+JBE|Snail Mail|-|Valentine|KUWR|Laramie, WY|-|-|-|6
+JBE|Snail Mail|-|Valentine|WAPS|Akron, OH|-|-|-|6
+JBE|Snail Mail|-|*Album Only*|KAXE|Grand Rapids, MN|-|-|-|5
+JBE|Snail Mail|-|Valentine|KTAO|Taos, NM|-|-|-|5
+JBE|Snail Mail|-|*Album Only*|WFHB|Bloomington, IN|-|-|-|5
+JBE|Snail Mail|-|Valentine|WFUV|New York, NY|-|-|-|5
+JBE|Snail Mail|-|Valentine|KCSN|Northridge, CA|-|-|-|4
+JBE|Snail Mail|-|Valentine|KDTR|Missoula, MT|-|-|-|4
+JBE|Snail Mail|-|*Album Only*|KEXP|Seattle, WA|-|-|-|4
+JBE|Snail Mail|-|*Album Only*|WYSO|Dayton, OH|-|-|-|3
+JBE|Snail Mail|-|*Album Only*|KXCI|Tucson, AZ|-|-|-|2
+JBE|Snail Mail|-|*Album Only*|WHRV|Norfolk, VA|-|-|-|2
+JBE|Snail Mail|-|*Album Only*|WUTC|Chattanooga, TN|-|-|-|2
+JBE|Spoon|-|The Hardest Cut|Sun Radio|Austin|-|-|-|33
+JBE|Spoon|-|The Hardest Cut|WFUV|New York, NY|-|-|-|26
+JBE|Spoon|-|The Hardest Cut|KMMS|Bozeman, MT|-|-|-|24
+JBE|Spoon|-|The Hardest Cut|KRVB|Boise, ID|-|-|-|24
+JBE|Spoon|-|The Hardest Cut|KROK|Deridder, LA|-|-|-|23
+JBE|Spoon|-|The Hardest Cut|WBJB|Lincroft NJ|-|-|-|23
+JBE|Spoon|-|The Hardest Cut|WXRV-FM|Haverhill, MA|-|-|-|22
+JBE|Spoon|-|The Hardest Cut|WYMS|Milwaukee, WI|-|-|-|21
+JBE|Spoon|-|The Hardest Cut|KBAC|Santa Fe/Albuquerque, NM|-|-|-|20
+JBE|Spoon|-|The Hardest Cut|WNCS|Montpelier, VT|-|-|-|20
+JBE|Spoon|-|The Hardest Cut|WOXL HD2|Asheville, NC|-|-|-|20
+JBE|Spoon|-|The Hardest Cut|KXT|Dallas, TX|-|-|-|19
+JBE|Spoon|-|The Hardest Cut|WUNC|Chapel Hill, NC|-|-|-|19
+JBE|Spoon|-|The Hardest Cut|KCLC|St. Charles, MO|-|-|-|18
+JBE|Spoon|-|The Hardest Cut|KRML|Carmel, CA|-|-|-|18
+JBE|Spoon|-|The Hardest Cut|KUTX|Austin, TX|-|-|-|18
+JBE|Spoon|-|The Hardest Cut|KYSL|Frisco, CO|-|-|-|18
+JBE|Spoon|-|The Hardest Cut|WERS|Boston, MA|-|-|-|18
+JBE|Spoon|-|The Hardest Cut|WMWV|Portland, ME|-|-|-|18
+JBE|Spoon|-|The Hardest Cut|WFPK|Louisville, KY|-|-|-|17
+JBE|Spoon|-|The Hardest Cut|WTMD|Towson, MD|-|-|-|17
+JBE|Spoon|-|The Hardest Cut|KTAO|Taos, NM|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WAPS|Akron, OH|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WEHM|Watermill, NY|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WPYA|Hoover|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WRLT|Nashville, TN|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WTYD The Tide|Williamsburg, VA|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WXRT|Chicago, IL|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|WZEW|Mobile, AL|-|-|-|16
+JBE|Spoon|-|The Hardest Cut|KJAC|Greeley, CO|-|-|-|15
+JBE|Spoon|-|The Hardest Cut|KRSH|Santa Rosa, CA|-|-|-|15
+JBE|Spoon|-|The Hardest Cut|WUIN|Wilmington, NC|-|-|-|15
+JBE|Spoon|-|The Hardest Cut|WXPK|White Plains, NY|-|-|-|15
+JBE|Spoon|-|The Hardest Cut|KPND|Sandpoint, Idaho|-|-|-|14
+JBE|Spoon|-|The Hardest Cut|KTBG|Kansas City, MO|-|-|-|14
+JBE|Spoon|-|The Hardest Cut|WCNR|Charlottesville, VA|-|-|-|14
+JBE|Spoon|-|The Hardest Cut|WNRN|Charlottesville, VA|-|-|-|14
+JBE|Spoon|-|The Hardest Cut|KCMP|Minneapolis / Rochester, MN|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|KGSR|Austin, TX|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|KMTN|Jackson Hole, WY|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|KVNA|Cottonwood|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|WDST|Woodstock, NY|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|WTTS|Indianapolis, IN|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|WXPN|Philadelphia, PA|-|-|-|13
+JBE|Spoon|-|The Hardest Cut|Indie 102.3|Denver|-|-|-|12
+JBE|Spoon|-|The Hardest Cut|KDTR|Missoula, MT|-|-|-|12
+JBE|Spoon|-|The Hardest Cut|WRSI|Northampton, MA|-|-|-|12
+JBE|Spoon|-|The Hardest Cut|WVOD-99.1 the Sound|Wanchese, NC|-|-|-|12
+JBE|Spoon|-|The Hardest Cut|KCSN|Northridge, CA|-|-|-|11
+JBE|Spoon|-|The Hardest Cut|WLKR|Milan|-|-|-|11
+JBE|Spoon|-|The Hardest Cut|KHUM|Ferndale, CA|-|-|-|10
+JBE|Spoon|-|The Hardest Cut|WEXT|Troy, NY|-|-|-|10
+JBE|Spoon|-|The Hardest Cut|WMMM|Madison, WI|-|-|-|10
+JBE|Spoon|-|The Hardest Cut|WSGE|Dallas, NC|-|-|-|10
+JBE|Spoon|-|The Hardest Cut|WUKY|Lexington, KY|-|-|-|10
+JBE|Spoon|-|*Album Only*|WFIT-FM|Melbourne, FL|-|-|-|9
+JBE|Spoon|-|The Hardest Cut|WMVY|Vineyard Haven, MA|-|-|-|9
+JBE|Spoon|-|The Hardest Cut|WUSM|Hattiesburg, MS|-|-|-|9
+JBE|Spoon|-|The Hardest Cut|WYEP|Pittsburgh, PA|-|-|-|9
+JBE|Spoon|-|The Hardest Cut|KAXE|Grand Rapids, MN|-|-|-|7
+JBE|Spoon|-|The Hardest Cut|KBCO|Denver, CO|-|-|-|7
+JBE|Spoon|-|The Hardest Cut|WCOO|Charleston,SC|-|-|-|7
+JBE|Spoon|-|The Hardest Cut|KNBA|Anchorage, AK|-|-|-|5
+JBE|Spoon|-|The Hardest Cut|KVNF|Paonia, CO|-|-|-|4
+JBE|Spoon|-|The Hardest Cut|WWCT|Peoria|-|-|-|4
+JBE|Spoon|-|The Hardest Cut|KRVM|Eugene, OR|-|-|-|3
+JBE|Spoon|-|The Hardest Cut|KUWR|Laramie, WY|-|-|-|3
+JBE|Spoon|-|*Album Only*|WCBE|Columbus, OH|-|-|-|3
+JBE|Spoon|-|*Album Only*|WEVL|Memphis, TN|-|-|-|3
+JBE|Spoon|-|The Hardest Cut|KRCL|Salt Lake City, UT|-|-|-|2
+JBE|Spoon|-|The Hardest Cut|KXCI|Tucson, AZ|-|-|-|2
+JBE|Spoon|-|The Hardest Cut|WJCU|Cleveland, OH|-|-|-|2
+JBE|Spoon|-|*Album Only*|KEXP|Seattle, WA|-|-|-|1
+JBE|Spoon|-|The Hardest Cut|WYSO|Dayton, OH|-|-|-|1
+JBE|Spoon|-|The Hardest Cut|KINK|Portland, OR|-|-|-|0
+JBE|Spoon|-|*Album Only*|WHRV|Norfolk, VA|-|-|-|0
 JBE Adds:
-JBEadd|Arlo Parks|-|*Album Only*|WNCW|Charlotte/Asheville, NC|-|-|-|2
+JBEadd|Spoon|-|*Album Only*|WEVL|Memphis, TN|-|-|-|3

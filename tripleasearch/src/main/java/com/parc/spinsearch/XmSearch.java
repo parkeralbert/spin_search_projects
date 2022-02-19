@@ -20,20 +20,20 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class XmSearch extends SpinSearch{
-	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, Date firstDayOfWeek, Date lastDayOfWeek, String allOutput) throws Exception {
-		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath, firstDayOfWeek, lastDayOfWeek);
-		outputSpinsByArtist(outputPath, spinsByArtist, append);
+	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, Date firstDayOfWeek, Date lastDayOfWeek, String allOutput, Boolean exact) throws Exception {
+		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath, firstDayOfWeek, lastDayOfWeek, exact);
+		outputSpinsByArtist(outputPath, spinsByArtist, true);
 		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}
 	
-	public Map<String, ArrayList <String>> getSpins(String url, ArrayList <String> artistInfo, String outputPath, String inputPath, Date firstDayOfWeek, Date lastDayOfWeek) throws Exception {
+	public Map<String, ArrayList <String>> getSpins(String url, ArrayList <String> artistInfo, String outputPath, String inputPath, Date firstDayOfWeek, Date lastDayOfWeek, Boolean exact) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
 		
 		WebDriver driver = login(url);
 		
 	    for (String currentArtist : artistInfo) {
 	    			url = createUrl(currentArtist, firstDayOfWeek, lastDayOfWeek);
-					ArrayList<ArrayList <String>> spinData = getSpinData(currentArtist, driver, url);
+					ArrayList<ArrayList <String>> spinData = getSpinData(currentArtist, driver, url, exact);
 					addSpin(spinData, currentArtist, spinsToPrint, firstDayOfWeek, lastDayOfWeek);
 	    } 
 		driver.quit();
@@ -81,7 +81,7 @@ public class XmSearch extends SpinSearch{
 		return driver;
 	}
 	
-	public  ArrayList<ArrayList <String>> getSpinData(String currentArtist, WebDriver driver, String url) {
+	public  ArrayList<ArrayList <String>> getSpinData(String currentArtist, WebDriver driver, String url, Boolean exact) {
 		ArrayList<ArrayList<String>> allSpinData = new ArrayList<>();
 		String song = null;
 		String artist = null;
@@ -115,27 +115,55 @@ public class XmSearch extends SpinSearch{
 				
 				WebElement resultList = driver.findElement(By.tagName("ul"));
 				List<WebElement> allResults = resultList.findElements(By.xpath("./child::*"));
-				for (WebElement spin:allResults) {
-					
-					ArrayList<String> spinData = new ArrayList<>();
-					List<WebElement> innerLinkChildren = spin.findElements(By.xpath("./child::*"));
-					List<WebElement> firstDivChildren = innerLinkChildren.get(0).findElements(By.xpath("./child::*"));
-					System.out.println("song is: " + firstDivChildren.get(0).getText());
-					String rawData = firstDivChildren.get(0).getText().replaceAll("[\\n]", "|");
-					String[] segments = rawData.split("\\|");
-					song = segments[0];
-					artist = segments[1];
-					date = segments[2];
-					if (segments.length > 3) {
-						show = segments[3];
+				if (!exact) {
+					for (WebElement spin:allResults) {
+						
+						ArrayList<String> spinData = new ArrayList<>();
+						List<WebElement> innerLinkChildren = spin.findElements(By.xpath("./child::*"));
+						List<WebElement> firstDivChildren = innerLinkChildren.get(0).findElements(By.xpath("./child::*"));
+						System.out.println("song is: " + firstDivChildren.get(0).getText());
+						String rawData = firstDivChildren.get(0).getText().replaceAll("[\\n]", "|");
+						String[] segments = rawData.split("\\|");
+						song = segments[0];
+						artist = segments[1];
+						date = segments[2];
+						if (segments.length > 3) {
+							show = segments[3];
+						}
+						System.out.println("song: " + song + "artist: " + artist + "date: " + date + "show: " + show);
+						spinData.add(song);
+						spinData.add(artist);
+						spinData.add(date);
+						spinData.add(show);
+						allSpinData.add(spinData);
 					}
-					System.out.println("song: " + song + "artist: " + artist + "date: " + date + "show: " + show);
-					spinData.add(song);
-					spinData.add(artist);
-					spinData.add(date);
-					spinData.add(show);
-					allSpinData.add(spinData);
 				}
+				else {
+					for (WebElement spin:allResults) {
+						
+						ArrayList<String> spinData = new ArrayList<>();
+						List<WebElement> innerLinkChildren = spin.findElements(By.xpath("./child::*"));
+						List<WebElement> firstDivChildren = innerLinkChildren.get(0).findElements(By.xpath("./child::*"));
+						System.out.println("song is: " + firstDivChildren.get(0).getText());
+						String rawData = firstDivChildren.get(0).getText().replaceAll("[\\n]", "|");
+						String[] segments = rawData.split("\\|");
+						artist = segments[1];
+						if (artist.equalsIgnoreCase(currentArtist)) {
+							song = segments[0];
+							date = segments[2];
+							if (segments.length > 3) {
+								show = segments[3];
+							}
+							System.out.println("song: " + song + "artist: " + artist + "date: " + date + "show: " + show);
+							spinData.add(song);
+							spinData.add(artist);
+							spinData.add(date);
+							spinData.add(show);
+							allSpinData.add(spinData);
+						}
+					}
+				}
+
 				
 			}
 			catch (org.openqa.selenium.NoSuchElementException | InterruptedException e){
