@@ -24,7 +24,7 @@ public class StSearch extends SpinSearch{
 	
 	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput, Date firstDayOfWeek, Date lastDayOfWeek) throws Exception {
 		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath, firstDayOfWeek, lastDayOfWeek);
-		outputSpinsByArtist(outputPath, spinsByArtist, append);
+		outputSpinsByArtist(outputPath, spinsByArtist, true);
 		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}
 	

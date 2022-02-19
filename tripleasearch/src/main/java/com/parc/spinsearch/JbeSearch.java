@@ -23,7 +23,7 @@ public class JbeSearch extends SpinSearch{
 		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath, driver);
 		Map<String, ArrayList <String>> addsByArtist = getAdds(url, artistInfo, outputPath, inputPath, driver);
 		
-		outputSpinsByArtist(outputPath, spinsByArtist, append);
+		outputSpinsByArtist(outputPath, spinsByArtist, true);
 		outputAddsByArtist(outputPath, addsByArtist);
 		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}

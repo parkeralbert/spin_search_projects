@@ -19,7 +19,7 @@ public class SmSearch extends SpinSearch{
 	
 	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput) throws Exception {
 		Map<String, ArrayList <String>> spinsByArtist = getSpins(url, artistInfo, outputPath, inputPath);
-		outputSpinsByArtist(outputPath, spinsByArtist, append);
+		outputSpinsByArtist(outputPath, spinsByArtist, true);
 		outputSpinsByArtist(allOutput, spinsByArtist, true);
 	}
 	

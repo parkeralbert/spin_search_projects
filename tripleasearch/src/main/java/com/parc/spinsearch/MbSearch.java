@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,7 +24,7 @@ public class MbSearch{
 	
 	public void addArtistNames(String line, ArrayList<String> artistInfo) {
 		
-		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:") && !line.contains("https://")) {
+		if(line.trim().length() > 0 && !line.contains("Last Day of Week:") && !line.contains("Date:") && !line.contains("https://") && (!line.equalsIgnoreCase("rolling") || !line.equalsIgnoreCase("published"))) {
 			if (!(line.indexOf("*") == 0)) {
 				artistInfo.add(line.trim());
 			}
@@ -32,13 +33,37 @@ public class MbSearch{
 		
 	}
 	
-	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput) throws Exception {
+	public void spinSearch(String url, ArrayList<String> artistInfo, String outputPath, String inputPath, boolean append, String allOutput, boolean published) throws Exception {
+		published = getSpinType(inputPath);
 		WebDriver driver = login(url);
 		
-		Map<String, ArrayList <String>> spinsByArtist = getSpins(artistInfo, outputPath, inputPath, driver);
+		Map<String, ArrayList <String>> spinsByArtist = getSpins(artistInfo, outputPath, inputPath, driver, published);
 		
-		outputSpinsByArtist(outputPath, spinsByArtist, append);
+		outputSpinsByArtist(outputPath, spinsByArtist, true);
 		outputSpinsByArtist(allOutput, spinsByArtist, true);
+	}
+	
+	public boolean getSpinType(String filePath) {
+		boolean spintype = true;
+		String line = null;
+		try 
+		{
+			BufferedReader reader = new BufferedReader(new FileReader(filePath));
+			while ((line = reader.readLine()) != null)
+			{
+				if (line.equalsIgnoreCase("rolling")) {
+					spintype = false;
+					break;
+				}
+			}
+			reader.close();
+		}
+		catch (Exception e)
+		{
+			System.err.println("Error: " + e);
+		}
+
+		return spintype;
 	}
 	
 	public WebDriver login(String url) {
@@ -67,12 +92,12 @@ public class MbSearch{
 		return driver;
 	}
 	
-	public Map<String, ArrayList <String>> getSpins(ArrayList<String> artistInfo, String filePath, String inputPath, WebDriver driver) throws Exception {
+	public Map<String, ArrayList <String>> getSpins(ArrayList<String> artistInfo, String filePath, String inputPath, WebDriver driver, boolean published) throws Exception {
 		Map<String, ArrayList <String>> spinsToPrint = new HashMap<>();
 		int iterator = 0;
 		try {
 		    for (String currentArtist : artistInfo) {
-					ArrayList<String[]> spinData = getSpinData(currentArtist, driver, iterator);
+					ArrayList<String[]> spinData = getSpinData(currentArtist, driver, iterator, published);
 					addSpin(spinData, currentArtist, spinsToPrint);
 					iterator++;
 		    }
@@ -87,19 +112,29 @@ public class MbSearch{
 	}
 	
 	
-	public ArrayList <String[]> getSpinData(String currentArtist, WebDriver driver, int iterator){
+	public ArrayList <String[]> getSpinData(String currentArtist, WebDriver driver, int iterator, boolean published){
 		ArrayList <String[]> allSpinData = new ArrayList<>();
 		WebDriverWait wait = new WebDriverWait(driver, 1000);
 		try {
 		driver.get("https://www2.mediabase.com/mbapp/SongAnalysisReport/Index");
 		Thread.sleep(2000);
 		if (iterator==0) {
-			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//select[@title='Published']")));
-			WebElement cycleSelection= driver.findElement(By.xpath("//select[@title='Published']"));
-			cycleSelection.click();
-			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//option[@title='Published']")));
-			WebElement cycle= driver.findElement(By.xpath("//option[@title='Published']"));
-			cycle.click();
+			if (published) {
+				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//select[@title='Published']")));
+				WebElement cycleSelection= driver.findElement(By.xpath("//select[@title='Published']"));
+				cycleSelection.click();
+				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//option[@title='Published']")));
+				WebElement cycle= driver.findElement(By.xpath("//option[@title='Published']"));
+				cycle.click();
+			}
+			else {
+				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//select[@title='Published']")));
+				WebElement cycleSelection= driver.findElement(By.xpath("//select[@title='Published']"));
+				cycleSelection.click();
+				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//option[@title='Rolling']")));
+				WebElement cycle= driver.findElement(By.xpath("//option[@title='Rolling']"));
+				cycle.click();
+			}
 			WebElement panelSelection= driver.findElement(By.xpath("//select[@title='Mediabase - Published Panel']"));
 			panelSelection.click();
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//option[@title='Mediabase - All Stations (U.S)']")));
@@ -146,7 +181,7 @@ public class MbSearch{
 				checkBoxes.get(1).click();
 				break;
 			}
-			catch(org.openqa.selenium.StaleElementReferenceException r){
+			catch(org.openqa.selenium.StaleElementReferenceException  | ElementNotInteractableException v){
 				Thread.sleep(200);
 			}
 		}
@@ -230,13 +265,25 @@ public class MbSearch{
 							}
 							
 							List <WebElement> tds = row.findElements(By.xpath("./child::*"));
-							if(tds.get(5).getText().equalsIgnoreCase("Triple A") || tds.get(4).getText().equalsIgnoreCase(">SiriusXM")) {
-								station = tds.get(2).getText();
-								location = tds.get(4).getText();
-								spinCount = tds.get(10).getText();
-								String [] spin = {station, location, currentArtist, song, spinCount};
-								System.out.println("Spin is: " + spin[0] + spin[1] + spin[3] + spin[4]);
-								allSpinData.add(spin);
+							if (published) {
+								if(tds.get(7).getText().equalsIgnoreCase("Triple A") || tds.get(6).getText().equalsIgnoreCase(">SiriusXM")) {
+									station = tds.get(2).getText();
+									location = tds.get(6).getText();
+									spinCount = tds.get(12).getText();
+									String [] spin = {station, location, currentArtist, song, spinCount};
+									System.out.println("Spin is: " + spin[0] + spin[1] + spin[3] + spin[4]);
+									allSpinData.add(spin);
+								}
+							}
+							else {
+								if(tds.get(7).getText().equalsIgnoreCase("Triple A") || tds.get(6).getText().equalsIgnoreCase(">SiriusXM")) {
+									station = tds.get(2).getText();
+									location = tds.get(6).getText();
+									spinCount = tds.get(12).getText();
+									String [] spin = {station, location, currentArtist, song, spinCount};
+									System.out.println("Spin is: " + spin[0] + spin[1] + spin[3] + spin[4]);
+									allSpinData.add(spin);
+								}
 							}
 						}
 					}
@@ -247,7 +294,20 @@ public class MbSearch{
 							catch (org.openqa.selenium.NoSuchElementException  | ElementNotInteractableException e) {
 									driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
 									Thread.sleep(2000);
-									nextTab.get(0).click();
+									try {
+										nextTab.get(0).click();
+									}
+									catch (ElementNotInteractableException f) {
+										try {
+											driver.findElement(By.xpath("//i[@class='glyphicon glyphicon-chevron-right']")).click();
+											Thread.sleep(2000);
+											nextTab.get(0).click();
+										}
+										
+										catch (ElementNotInteractableException g) {
+											break;
+										}
+									}
 						    }
 					}
 				
@@ -340,30 +400,6 @@ public class MbSearch{
 		return numSelected;
 	}
 	
-	public ArrayList <String> getArtistList(String artistInputPath){
-		String line = null;
-		ArrayList<String> artistNames = new ArrayList<String>(); 
-		try
-		{
-			BufferedReader artistReader = new BufferedReader(new FileReader(artistInputPath));
-			while ((line = artistReader.readLine()) != null)
-			{
-
-				addArtistNames(line, artistNames);
-				
-			}
-			artistReader.close();
-			
-		}
-		catch (Exception e)
-		{
-			System.err.println("Error: " + e);
-			e.printStackTrace();
-		}
-		
-		return artistNames;
-        
-	}
 	
 	public void addSpin(ArrayList <String[]> spinData, String currentArtist, Map<String, ArrayList <String>> spinsToPrint) throws Exception   {
 		if(spinData != null) {
