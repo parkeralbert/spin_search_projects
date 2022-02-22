@@ -315,3 +315,36 @@ Mediabase|Hatchie|-|Quicksand|WQKL-FM|Ann Arbor, MI|-|-|-|1
 Mediabase|Hatchie|-|Quicksand|Sirius XMU|>SiriusXM|-|-|-|5
 Mediabase|Hatchie|-|This Enchanted|KKXT-FM|Dallas|-|-|-|4
 
+
+
+
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KKXT-FM|Dallas|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|MCAA-FM|>Music Choice|-|-|-|10
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|7
+Mediabase|Arlo Parks|-|Hope|WEHM-FM|Hamptons-Riverhe|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|3
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|WRLT-FM|Nashville|-|-|-|2
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|2
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|12
+Mediabase|Arlo Parks|-|Softly|KCRW-FM|Los Angeles|-|-|-|5
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|12
+Mediabase|Arlo Parks|-|Softly|KEXP-FM|Seattle|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|KKXT-FM|Dallas|-|-|-|11
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|12
+Mediabase|Arlo Parks|-|Softly|WEHM-FM|Hamptons-Riverhe|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|WFUV-FM|New York|-|-|-|16
+Mediabase|Arlo Parks|-|Softly|WKLQ-FM|Grand Rapids|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WPYA-F2|Birmingham|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WRNR-FM|Baltimore|-|-|-|8
+Mediabase|Arlo Parks|-|Softly|WTTS-FM|Indianapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WXPK-FM|Hudson Valley, N|-|-|-|2
+Mediabase|Arlo Parks|-|Softly|WXPN-FM|Philadelphia|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|35
+
+

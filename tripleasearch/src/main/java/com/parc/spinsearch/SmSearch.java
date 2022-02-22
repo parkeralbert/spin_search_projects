@@ -56,7 +56,12 @@ public class SmSearch extends SpinSearch{
 			driver.findElement(By.id("txtUser")).sendKeys("terrorbirdsub");
 			driver.findElement(By.id("txtPass")).sendKeys("birdofTerror321");
 			driver.findElement(By.id("btnLogin")).click();
-			driver.findElement(By.xpath("//a[@href='sub_listFull.aspx']")).click();
+			driver.findElement(By.xpath("//a[@href='http://etracking.submodernreport.com/sub_listFull.aspx']")).click();
+			
+			driver.findElement(By.id("txtUser")).sendKeys("terrorbirdsub");
+			driver.findElement(By.id("txtPass")).sendKeys("birdofTerror321");
+			driver.findElement(By.id("btnLogin")).click();
+			driver.findElement(By.xpath("//a[@href='/sub_listFull.aspx']")).click();
 		}
 		catch (org.openqa.selenium.NoSuchElementException e) {
 	    }
@@ -120,9 +125,14 @@ public class SmSearch extends SpinSearch{
 		
 		WebElement rawData = null;
 		
-			driver.findElement(By.id("ctl00_cphMain_ctl00_txtSearch")).sendKeys(currentArtist);
-			driver.findElement(By.id("ctl00_cphMain_ctl00_btnSearch")).click();
-			
+			try {
+				Thread.sleep(2000);
+			} catch (InterruptedException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			driver.findElement(By.id("cphMain_ctl00_txtSearch")).sendKeys(currentArtist);
+			driver.findElement(By.id("cphMain_ctl00_btnSearch")).click();
 			    	
 			    	try {
 			    		List <WebElement> artistNames = driver.findElements(By.xpath(artistSearch));

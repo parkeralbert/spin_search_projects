@@ -338,7 +338,7 @@ public class MbSearch{
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@class = 'ui-icon-asc ui-sort-ltr ui-icon ui-icon-triangle-1-n ui-state-disabled']")));
 			WebElement firstResult= driver.findElement(By.xpath("//tr[@class='list-item selectable']"));
 			List<WebElement> resultData = firstResult.findElements(By.xpath("./child::*"));
-			if(resultData.get(1).getText().equalsIgnoreCase(currentArtist) && (resultData.get(4).getText().equalsIgnoreCase("2021") || resultData.get(4).getText().equalsIgnoreCase("2020"))) {
+			if(resultData.get(1).getText().equalsIgnoreCase(currentArtist) && (resultData.get(4).getText().equalsIgnoreCase("2022") || resultData.get(4).getText().equalsIgnoreCase("2021"))) {
 				
 			}
 			else {
@@ -359,7 +359,7 @@ public class MbSearch{
 			for (WebElement selectable : selectables) {
 				tableData = selectable.findElements(By.xpath("./child::*"));
 				
-				if(tableData.get(1).getText().equalsIgnoreCase(currentArtist)   && (tableData.get(4).getText().equalsIgnoreCase("2021") || tableData.get(4).getText().equalsIgnoreCase("2020"))) {
+				if(tableData.get(1).getText().equalsIgnoreCase(currentArtist)   && (tableData.get(4).getText().equalsIgnoreCase("2022") || tableData.get(4).getText().equalsIgnoreCase("2021"))) {
 					actions.moveToElement(selectable).perform();
 					selectable = driver.findElement(By.xpath("//tr[@class='list-item selectable hover']"));
 					selectable.click();
