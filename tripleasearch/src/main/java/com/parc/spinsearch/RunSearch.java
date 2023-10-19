@@ -21,7 +21,7 @@ public class RunSearch {
 		XmSearch xm = new XmSearch();
 		ArrayList<String> artistInfo = jbe.getArtistList(inputPath);
 		Boolean exact = jbe.setExactBoolean(inputPath);
-
+		//test
 		try {
 			
 			if (args.length == 1 && args[0].equalsIgnoreCase("jbe")){
