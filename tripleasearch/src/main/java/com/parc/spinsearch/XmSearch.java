@@ -73,7 +73,7 @@ public class XmSearch extends SpinSearch{
 			List <WebElement> buttons = driver.findElements(By.xpath("//button[@class = 'w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md bg-white text-sm leading-5 font-medium text-gray-500 hover:text-gray-400 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue transition duration-150 ease-in-out']"));
 			buttons.get(1).click();
 			
-			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@class = 'inline-flex items-center px-4 py-2 text-sm leading-5 font-medium rounded-md bg-white text-gray-500 hover:text-white hover:bg-red-500 focus:outline-none focus:border-red-700 focus:shadow-outline-red active:bg-red-700 transition ease-in-out duration-150']")));
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@class = 'shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md']")));
 		}
 		catch (org.openqa.selenium.NoSuchElementException e) {
 			e.printStackTrace();

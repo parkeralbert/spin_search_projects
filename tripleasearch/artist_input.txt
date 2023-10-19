@@ -9,51 +9,5 @@ https://api.composer.nprstations.org/v1/widget/51913027e1c8d7968915d8e0/playlist
 https://api.composer.nprstations.org/v1/widget/51913027e1c8d7968915d8e0/playlist?prog_id=522a0d2ca5b36ce245000c1b&format=json&after=2022-02-08
 https://api.composer.nprstations.org/v1/widget/51913027e1c8d7968915d8e0/playlist?prog_id=5544121e34fbfbec25fb4d57&format=json&after=2022-02-08
 https://api.composer.nprstations.org/v1/widget/51913027e1c8d7968915d8e0/playlist?prog_id=589e1432f3b245c557a7a85d&format=json&after=2022-02-08
-*Babe Heaven
-*Barry
-*Daniel Rosen
-*Ducks Limited
-*Ducks Ltd
-*Methyl Ethyl
-*Orien Sun
-*Sinead O'Brian
-*Space Face
-A Place To Bury Strangers
-Alex Lahey
-Anxious
 Arlo Parks
-Babeheaven
-Barrie
-Beshken
-Boris
-Camp Cope
-Caroline Loveglow
-Cat Power
-Chelsea Jade
-Cloakroom
-Cola
-Daniel Rossen
-Ducks Ltd.
-EXES
-Gully Boys
-Hatchie
-Julie Doiron
-Kilo Kish
-LANNDS
-Let's Eat Grandma
-Loveseat Pete
-Methyl Ethel
-Neil Frances
-Orion Sun
-Reptaliens
-Shamir
-Sinead O'Brien
-Spaceface
-Tempers
-The Beths
-Uffie
-waveform
-Why Not
-Widowspeak
-yeule
-Young Prisms
+boner
