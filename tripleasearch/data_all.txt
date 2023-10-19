@@ -348,3 +348,237 @@ Mediabase|Arlo Parks|-|Softly|WXPN-FM|Philadelphia|-|-|-|9
 Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|35
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+SubModern|Arlo Parks|-|SOFTLY|KDTR|-|-|-|-|1
+SubModern|Arlo Parks|-|SOFTLY|KOSU|-|-|-|-|1
+SubModern|Arlo Parks|-|SOFTLY|WAQX|-|-|-|-|1
+SubModern|Arlo Parks|-|SOFTLY|WDET|-|-|-|-|1
+SubModern|Arlo Parks|-|SOFTLY|WLUM|-|-|-|-|1
+SubModern|Arlo Parks|-|SOFTLY|WQRR|-|-|-|-|1
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KEXP-FM|Seattle|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|MCAA-FM|>Music Choice|-|-|-|9
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|3
+Mediabase|Arlo Parks|-|Hope|WEHM-FM|Hamptons-Riverhe|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|3
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|11
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|KKXT-FM|Dallas|-|-|-|18
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|2
+Mediabase|Arlo Parks|-|Softly|KRVB-FM|Boise, ID|-|-|-|22
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|16
+Mediabase|Arlo Parks|-|Softly|Alt Nation|>SiriusXM|-|-|-|29
+Mediabase|Arlo Parks|-|Softly|WEHM-FM|Hamptons-Riverhe|-|-|-|8
+Mediabase|Arlo Parks|-|Softly|WFUV-FM|New York|-|-|-|7
+Mediabase|Arlo Parks|-|Softly|WPYA-F2|Birmingham|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|15
+Mediabase|Arlo Parks|-|Softly|WXPK-FM|Hudson Valley, N|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WXPN-FM|Philadelphia|-|-|-|8
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|25
+
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-09|4:12 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-09|6:52 AM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|SiriusXMU|2022-02-09|10:47 AM|-
+SiriusXM|Arlo Parks|-|Black Dog|SiriusXM|-|SiriusXMU|2022-02-09|2:43 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-09|3:58 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Loft|2022-02-09|5:31 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-09|8:30 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-10|1:42 AM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-10|10:52 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-10|11:08 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-10|7:45 PM|-
+SiriusXM|Arlo Parks|-|Eugene|SiriusXM|-|SiriusXMU|2022-02-10|9:42 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-11|5:34 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-11|7:41 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|U2 X-Radio|2022-02-11|5:55 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Coffee House|2022-02-11|6:00 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-12|3:12 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|The Loft|2022-02-12|12:29 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-12|1:31 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-12|3:45 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Loft|2022-02-12|9:33 PM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-13|12:43 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-13|3:46 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-13|8:18 AM|-
+SiriusXM|Arlo Parks|-|Portra 400|SiriusXM|-|SiriusXMU|2022-02-13|10:29 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|The Loft|2022-02-13|3:29 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-13|5:38 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-13|9:43 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|5:21 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|9:16 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-14|9:59 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|1:24 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|5:12 PM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-14|7:39 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|9:19 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|2:30 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|6:13 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|10:39 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|2:24 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-15|3:10 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|6:28 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Coffee House|2022-02-15|9:19 PM|-
+
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-09|4:12 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-09|6:52 AM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|SiriusXMU|2022-02-09|10:47 AM|-
+SiriusXM|Arlo Parks|-|Black Dog|SiriusXM|-|SiriusXMU|2022-02-09|2:43 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-09|3:58 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Loft|2022-02-09|5:31 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-09|8:30 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-10|1:42 AM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-10|10:52 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-10|11:08 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-10|7:45 PM|-
+SiriusXM|Arlo Parks|-|Eugene|SiriusXM|-|SiriusXMU|2022-02-10|9:42 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-11|5:34 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-11|7:41 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|U2 X-Radio|2022-02-11|5:55 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Coffee House|2022-02-11|6:00 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-12|3:12 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|The Loft|2022-02-12|12:29 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-12|1:31 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-12|3:45 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Loft|2022-02-12|9:33 PM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-13|12:43 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-13|3:46 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-13|8:18 AM|-
+SiriusXM|Arlo Parks|-|Portra 400|SiriusXM|-|SiriusXMU|2022-02-13|10:29 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|The Loft|2022-02-13|3:29 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-13|5:38 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-13|9:43 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|5:21 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|9:16 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-14|9:59 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|1:24 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|5:12 PM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-14|7:39 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|9:19 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|2:30 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|6:13 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|10:39 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|2:24 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-15|3:10 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|6:28 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Coffee House|2022-02-15|9:19 PM|-
+
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-09|4:12 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-09|6:52 AM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|SiriusXMU|2022-02-09|10:47 AM|-
+SiriusXM|Arlo Parks|-|Black Dog|SiriusXM|-|SiriusXMU|2022-02-09|2:43 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-09|3:58 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Loft|2022-02-09|5:31 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-09|8:30 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-10|1:42 AM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-10|10:52 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-10|11:08 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-10|7:45 PM|-
+SiriusXM|Arlo Parks|-|Eugene|SiriusXM|-|SiriusXMU|2022-02-10|9:42 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-11|5:34 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-11|7:41 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|U2 X-Radio|2022-02-11|5:55 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Coffee House|2022-02-11|6:00 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-12|3:12 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|The Loft|2022-02-12|12:29 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-12|1:31 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-12|3:45 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Loft|2022-02-12|9:33 PM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-13|12:43 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-13|3:46 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-13|8:18 AM|-
+SiriusXM|Arlo Parks|-|Portra 400|SiriusXM|-|SiriusXMU|2022-02-13|10:29 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|The Loft|2022-02-13|3:29 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-13|5:38 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-13|9:43 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|5:21 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|9:16 AM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-14|9:59 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|1:24 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|5:12 PM|-
+SiriusXM|Arlo Parks|-|Just Go|SiriusXM|-|The Coffee House|2022-02-14|7:39 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-14|9:19 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|2:30 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|6:13 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|10:39 AM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|2:24 PM|-
+SiriusXM|Arlo Parks|-|Caroline|SiriusXM|-|The Coffee House|2022-02-15|3:10 PM|-
+SiriusXM|Arlo Parks|-|Softly|SiriusXM|-|SiriusXMU|2022-02-15|6:28 PM|-
+SiriusXM|Arlo Parks|-|Green Eyes|SiriusXM|-|The Coffee House|2022-02-15|9:19 PM|-
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KVOQ-FM|Denver|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WDST-FM|Poughkeepsie|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|1
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KVOQ-FM|Denver|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WERS-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYEP-FM|Pittsburgh|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYMS-FM|Milwaukee|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|7
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KVOQ-FM|Denver|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WDST-FM|Poughkeepsie|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|1
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KVOQ-FM|Denver|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WERS-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYEP-FM|Pittsburgh|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYMS-FM|Milwaukee|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|7
+
+
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|KKXT-FM|Dallas|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KVOQ-FM|Denver|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WAPS-FM|Akron|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WDST-FM|Poughkeepsie|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WNRN-FM|Charlottesville,|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WNXP-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|2
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|3
+Mediabase|Arlo Parks|-|Softly|KTBG-FM|Kansas City|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KVOQ-FM|Denver|-|-|-|5
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|10
+Mediabase|Arlo Parks|-|Softly|WERS-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WTMD-FM|Baltimore|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYEP-FM|Pittsburgh|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYMS-FM|Milwaukee|-|-|-|4
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|9

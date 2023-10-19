@@ -71,7 +71,7 @@ public class MbSearch{
 		WebDriver driver = new ChromeDriver();
 		try {
 			driver.get(url);
-			driver.findElement(By.id("cookie-consent-close")).click();	
+			//driver.findElement(By.id("onetrust-accept-btn-handler")).click();	
 			driver.findElement(By.id("app-login-menu")).click();
 			
 			WebDriverWait wait = new WebDriverWait(driver, 1000);
@@ -187,12 +187,24 @@ public class MbSearch{
 		}
 
 		driver.findElement(By.xpath("//button[@class='mb-btn-remove']")).click();
+		driver.findElement(By.xpath("//input[@class='mb-chk-airplay']")).click();
 		driver.findElement(By.xpath("//input[@class='mb-form-control']")).sendKeys(currentArtist);
 
 		driver.findElement(By.xpath("//div[@class='mb-rbtn-type mb-radio-button-picker']")).click();
 		driver.findElement(By.xpath("//button[@class='btn btn-default']")).click();
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//tr[@class = 'list-item selectable']")));
-
+		
+		WebElement eb = driver.findElement(By.xpath("//div[@class='mb-search-list mb-data-list']"));
+		List<WebElement> songFinder = eb.findElements(By.xpath("./child::*"));
+		List<WebElement> songTable = songFinder.get(0).findElements(By.xpath("./child::*"));
+		List<WebElement> tableList = songTable.get(0).findElements(By.xpath("./child::*"));
+		WebElement listEmpty = tableList.get(0);
+		
+		wait.until(ExpectedConditions.or(
+				ExpectedConditions.presenceOfElementLocated(By.xpath("//tr[@class = 'list-item selectable']")),
+				ExpectedConditions.textToBePresentInElement(listEmpty, "The list is empty.")
+			));
+		
+			
 		int numSelected = selectSongs(currentArtist, driver);
 		
 		if (numSelected == 0) {
@@ -207,8 +219,8 @@ public class MbSearch{
 		driver.findElement(By.id("app-btn-run-report")).click();
 
 
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.id("mb-tab-nav")));
-		WebElement navBar= driver.findElement(By.id("mb-tab-nav"));
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//ul[contains(@id,'mb-tab-nav')]")));
+		WebElement navBar= driver.findElement(By.xpath("//ul[contains(@id,'mb-tab-nav')]"));
 		List<WebElement> tabs = navBar.findElements(By.xpath("./child::*"));
 
 		String station = null;

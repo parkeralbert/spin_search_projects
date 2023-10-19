@@ -140,7 +140,7 @@ public class SmSearch extends SpinSearch{
 			    		
 			    		for (WebElement artistName : artistNames) {
 				    		
-			    			String searchUrl = "http://etracking.deanemediasolutions.com/sub_artists.aspx?rid=";
+			    			String searchUrl = "http://etracking.submodernreport.com/sub_artists.aspx?rid=";
 				    		
 				    		if(artistName.getText().equalsIgnoreCase(currentArtist) && artistName.getAttribute("href").contains(searchUrl)) {
 						    	artistName.click();
@@ -163,8 +163,9 @@ public class SmSearch extends SpinSearch{
 			
 			
 		    try {
-		    	rawData = driver.findElement(By.id("ctl00_cphMain_gvArtists"));
+		    	rawData = driver.findElement(By.id("cphMain_gvArtists"));
 		    } catch (org.openqa.selenium.NoSuchElementException e) {
+		    	System.out.println("no Element");
 		    	driver.navigate().back();
 		    	driver.navigate().back();
 		        return null;

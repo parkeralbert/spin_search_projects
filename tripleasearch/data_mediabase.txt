@@ -39,3 +39,90 @@ Mediabase|Arlo Parks|-|Softly|WTTS-FM|Indianapolis|-|-|-|1
 Mediabase|Arlo Parks|-|Softly|WXPK-FM|Hudson Valley, N|-|-|-|2
 Mediabase|Arlo Parks|-|Softly|WXPN-FM|Philadelphia|-|-|-|9
 Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|35
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KEXP-FM|Seattle|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|MCAA-FM|>Music Choice|-|-|-|9
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|3
+Mediabase|Arlo Parks|-|Hope|WEHM-FM|Hamptons-Riverhe|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|3
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|11
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|KKXT-FM|Dallas|-|-|-|18
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|2
+Mediabase|Arlo Parks|-|Softly|KRVB-FM|Boise, ID|-|-|-|22
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|16
+Mediabase|Arlo Parks|-|Softly|Alt Nation|>SiriusXM|-|-|-|29
+Mediabase|Arlo Parks|-|Softly|WEHM-FM|Hamptons-Riverhe|-|-|-|8
+Mediabase|Arlo Parks|-|Softly|WFUV-FM|New York|-|-|-|7
+Mediabase|Arlo Parks|-|Softly|WPYA-F2|Birmingham|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|15
+Mediabase|Arlo Parks|-|Softly|WXPK-FM|Hudson Valley, N|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WXPN-FM|Philadelphia|-|-|-|8
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|25
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KVOQ-FM|Denver|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WDST-FM|Poughkeepsie|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|1
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KVOQ-FM|Denver|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WERS-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYEP-FM|Pittsburgh|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYMS-FM|Milwaukee|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|7
+
+Mediabase|Arlo Parks|-|Hope|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KVOQ-FM|Denver|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WDST-FM|Poughkeepsie|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WFUV-FM|New York|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|1
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KVOQ-FM|Denver|-|-|-|6
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|9
+Mediabase|Arlo Parks|-|Softly|WERS-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYEP-FM|Pittsburgh|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYMS-FM|Milwaukee|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|7
+
+
+Mediabase|Arlo Parks|-|Hope|KCSN-FM|Los Angeles|-|-|-|2
+Mediabase|Arlo Parks|-|Hope|KKXT-FM|Dallas|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|KVOQ-FM|Denver|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WAPS-FM|Akron|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WCLY-AM|Raleigh|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WDST-FM|Poughkeepsie|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WNRN-FM|Charlottesville,|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WNXP-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Hope|WPYA-F2|Birmingham|-|-|-|2
+Mediabase|Arlo Parks|-|Just Go|KCSN-FM|Los Angeles|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KCMP-FM|Minneapolis|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KRCL-FM|Salt Lake City|-|-|-|3
+Mediabase|Arlo Parks|-|Softly|KTBG-FM|Kansas City|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|KVOQ-FM|Denver|-|-|-|5
+Mediabase|Arlo Parks|-|Softly|MCAA-FM|>Music Choice|-|-|-|10
+Mediabase|Arlo Parks|-|Softly|WERS-FM|Boston|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WRLT-FM|Nashville|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WTMD-FM|Baltimore|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYEP-FM|Pittsburgh|-|-|-|1
+Mediabase|Arlo Parks|-|Softly|WYMS-FM|Milwaukee|-|-|-|4
+Mediabase|Arlo Parks|-|Softly|Sirius XMU|>SiriusXM|-|-|-|9
