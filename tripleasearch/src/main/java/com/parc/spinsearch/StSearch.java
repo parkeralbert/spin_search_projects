@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -226,7 +227,7 @@ public class StSearch extends SpinSearch{
 		WebDriver driver = new ChromeDriver();
 		try {
 			driver.get("https://spinitron.com/m/search/status");
-			WebDriverWait wait = new WebDriverWait(driver, 1000);
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//td[contains(text(), 'Terrorbird')]")));
 		}
 		catch (org.openqa.selenium.NoSuchElementException e) {

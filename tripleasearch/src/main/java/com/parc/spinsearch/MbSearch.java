@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -74,7 +75,7 @@ public class MbSearch{
 			//driver.findElement(By.id("onetrust-accept-btn-handler")).click();	
 			driver.findElement(By.id("app-login-menu")).click();
 			
-			WebDriverWait wait = new WebDriverWait(driver, 1000);
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.id("app-login-username")));
 			
 			driver.findElement(By.id("app-login-username")).sendKeys("ARTISTCOOP19");
@@ -114,7 +115,7 @@ public class MbSearch{
 	
 	public ArrayList <String[]> getSpinData(String currentArtist, WebDriver driver, int iterator, boolean published){
 		ArrayList <String[]> allSpinData = new ArrayList<>();
-		WebDriverWait wait = new WebDriverWait(driver, 1000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 		try {
 		driver.get("https://www2.mediabase.com/mbapp/SongAnalysisReport/Index");
 		Thread.sleep(2000);
@@ -346,7 +347,7 @@ public class MbSearch{
 			
 			List <WebElement> sortButtons = driver.findElements(By.xpath("//span[@class='ui-icon-asc ui-sort-ltr ui-icon ui-icon-triangle-1-n']"));
 			sortButtons.get(3).click();
-			WebDriverWait wait = new WebDriverWait(driver, 1000);
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//span[@class = 'ui-icon-asc ui-sort-ltr ui-icon ui-icon-triangle-1-n ui-state-disabled']")));
 			WebElement firstResult= driver.findElement(By.xpath("//tr[@class='list-item selectable']"));
 			List<WebElement> resultData = firstResult.findElements(By.xpath("./child::*"));

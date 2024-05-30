@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -65,7 +66,7 @@ public class XmSearch extends SpinSearch{
 		WebDriver driver = new ChromeDriver();
 		try {
 			driver.get(url);
-			WebDriverWait wait = new WebDriverWait(driver, 1000);
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@class = 'text-blue-600']")));
 			driver.findElement(By.xpath("//a[@class = 'text-blue-600']")).click();
 			
@@ -89,7 +90,7 @@ public class XmSearch extends SpinSearch{
 		String show = "-";
 			try {
 				driver.get(url);
-				WebDriverWait wait = new WebDriverWait(driver, 1000);
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1000));
 				wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@class = 'inline-flex items-center px-6 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150 bg-blue-600 hover:bg-blue-500']")));
 				try {
 					WebElement resultList = driver.findElement(By.tagName("ul"));
