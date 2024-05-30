@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
@@ -249,7 +250,7 @@ public static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64) App
 		System.setProperty("webdriver.chrome.driver", "/opt/WebDriver/bin/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		ArrayList<ArrayList<String>> allSpinData = new ArrayList<>();
 		
 		String artistUrl = insertString("//a[@href='artists.aspx?rid=']", currentArtist, 26);
